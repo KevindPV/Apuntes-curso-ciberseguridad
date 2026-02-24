@@ -5,7 +5,7 @@
 - [**Video 25:** Practicamos con el firewall Portmaster](#video-25)
 - [**Video 26:** Seguridad en la nube](#video-26)
 - [**Video 27:** Seguridad en dispositivos IoT](#video-27)
-- [**Video 28:** Estándares, reglamentos y buenas prácticas](#video-28)
+- [**Video 29:** Estándares, reglamentos y buenas prácticas](#video-29)
 - [**Video 30:** Gestión de riesgos](#video-30)
 
 <a id="video-24"></a>
@@ -463,8 +463,8 @@ En esta clase también se presenta un documento práctico con gadgets y herramie
 - **Respuesta:** Una cámara vulnerable se compromete y se integra en una botnet, permitiendo ataques externos o movimiento lateral dentro de la red interna.
 
 
-<a id="video-28"></a>
-## 28. Estándares, reglamentos y buenas prácticas
+<a id="video-29"></a>
+## 29. Estándares, reglamentos y buenas prácticas
 
 ### Resumen breve
 En ciberseguridad, los estándares y normativas ayudan a pasar de “hacer cosas por intuición” a trabajar con un marco sólido, medible y auditable. Esto permite reducir riesgos legales, técnicos y de reputación.

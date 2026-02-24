@@ -94,7 +94,7 @@
 - **Pregunta:** Da un ejemplo concreto de segmentación en una casa con IoT.
 - **Respuesta:** Crear una red separada para cámaras/bombillas/TV y bloquear que esa red acceda a laptops o móviles personales.
 
-## Sección 5 - Video 28 (Estándares, reglamentos y buenas prácticas)
+## Sección 5 - Video 29 (Estándares, reglamentos y buenas prácticas)
 
 - **Pregunta:** ¿Qué es ISO 27001 en una frase?
 - **Respuesta:** Es un estándar internacional para gestionar la seguridad de la información mediante un SGSI basado en riesgos.
