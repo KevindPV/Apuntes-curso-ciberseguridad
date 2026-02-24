@@ -16,6 +16,8 @@ Cuando el usuario pida tareas relacionadas con contenido del curso:
    - `- Respuesta:`
 6. Si se añaden nuevas preguntas durante una tarea, agrégalas en `preguntas-anki.md` agrupadas por tema.
 7. Prioriza español neutro y estructura en Markdown con encabezados y listas.
+8. Todas las imágenes deben guardarse en una carpeta `img` dentro de la sección correspondiente y nombrarse en orden secuencial: `img1`, `img2`, `img3`, etc.
+9. Al trabajar una sección nueva o diferente en un archivo `.md`, se debe agregar debajo del título principal un subtítulo **Contenido del curso** con la lista enumerada de videos de la sección y enlaces clickeables para navegación interna.
 
 ## Formato sugerido para explicaciones
 - Resumen breve
