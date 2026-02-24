@@ -172,6 +172,18 @@
 
 ## Sección 6 - Video 34 (Estructura de la ISO 27001)
 
+
+- **Pregunta:** ¿Qué es el Anexo A de ISO 27001 en palabras simples?
+- **Respuesta:** Es una lista de 93 controles de seguridad que ayuda a tratar riesgos dentro del SGSI.
+
+- **Pregunta:** ¿Cuáles son los 4 grupos de controles del Anexo A (2022)?
+- **Respuesta:** Organizacionales, de personas, físicos y tecnológicos.
+
+- **Pregunta:** ¿Qué es la Declaración de Aplicabilidad (SoA)?
+- **Respuesta:** Es el documento que indica qué controles aplicas, cuáles no y por qué.
+
+- **Pregunta:** ¿ISO 27001 obliga a aplicar los 93 controles del Anexo A?
+- **Respuesta:** No; exige justificar inclusión o exclusión según riesgos y contexto del negocio.
 - **Pregunta:** ¿Qué es PDCA en palabras simples?
 - **Respuesta:** Es una rueda de mejora continua: planear, hacer, revisar y mejorar.
 

@@ -114,7 +114,81 @@ Además, existen rutas de certificación tanto para empresas como para profesion
 - Tratar la certificación como objetivo único y no como mejora continua.
 - No involucrar áreas de negocio en la evaluación de riesgos.
 
-### Preguntas de entrevista (con respuestas)
+#
+
+## Anexo A de ISO/IEC 27001 (explicado como si fueras un niño)
+
+### ¿Qué es el Anexo A?
+Imagina que ISO 27001 te da un **gran checklist de seguridad** para proteger una empresa.
+Ese checklist es el **Anexo A**.
+
+- Tiene **93 controles de seguridad**.
+- Están agrupados en **4 temas**.
+- Sirve para tratar los riesgos que descubriste antes.
+
+**Ejemplo niño:**
+Si tu casa tiene riesgo de robo, tu checklist puede decir: “cerrar puerta”, “poner alarma”, “no dejar llaves visibles”.
+En una empresa, Anexo A hace algo parecido pero con seguridad de información.
+
+### Estructura del Anexo A (versión 2022)
+
+1. **Controles organizacionales (37)**
+   Reglas y forma de organizar la seguridad.
+   
+   **Ejemplo:**
+   Política de seguridad, gestión de proveedores, respuesta a incidentes.
+
+2. **Controles de personas (8)**
+   Lo que deben hacer las personas para no poner en riesgo la información.
+
+   **Ejemplo:**
+   Capacitación anti-phishing, responsabilidades claras, proceso de alta/baja de usuarios.
+
+3. **Controles físicos (14)**
+   Protección de lugares y equipos.
+
+   **Ejemplo:**
+   Control de acceso a sala de servidores, cámaras, cerraduras de rack.
+
+4. **Controles tecnológicos (34)**
+   Herramientas y medidas técnicas de seguridad.
+
+   **Ejemplo:**
+   MFA, cifrado, firewalls, copias de seguridad, monitoreo y logs.
+
+### Relación con ISO/IEC 27002:2022
+- ISO 27001 te dice **qué marco seguir**.
+- ISO 27002 te explica **cómo aplicar mejor cada control** del Anexo A.
+
+**Ejemplo niño:**
+ISO 27001 es como el “plan de estudio”.
+ISO 27002 es como el “libro con explicaciones y ejemplos” de cada tema.
+
+### ¿Se deben aplicar los 93 controles?
+No siempre.
+ISO 27001 **no obliga** a usar todos, pero sí a justificar muy bien:
+- cuáles aplicas,
+- cuáles no,
+- y por qué.
+
+### Declaración de Aplicabilidad (SoA)
+La **SoA** es un documento clave donde dejas por escrito:
+- qué controles del Anexo A aplicas,
+- cuáles excluyes,
+- y la razón de cada decisión.
+
+**Ejemplo sencillo:**
+Si una empresa no tiene oficinas físicas (todo remoto), puede justificar que ciertos controles físicos no aplican igual; pero debe explicarlo en la SoA.
+
+### Mini ejemplo práctico
+Empresa pequeña de e-commerce:
+- Riesgo: robo de cuentas admin.
+- Control aplicado: MFA + revisión de accesos (tecnológico + organizacional).
+- Riesgo: phishing a empleados.
+- Control aplicado: formación periódica (personas).
+- Todo queda justificado en la **SoA**.
+
+## Preguntas de entrevista (con respuestas)
 - **Pregunta:** ¿Qué es un SGSI en contexto ISO 27001?
 - **Respuesta:** Es un sistema de gestión que define políticas, procesos y controles para proteger la información de forma continua y basada en riesgos.
 
@@ -220,6 +294,80 @@ Una empresa pequeña usa PDCA:
 - **Do:** activa MFA y políticas de contraseñas.
 - **Check:** mide si bajan accesos sospechosos.
 - **Act:** refuerza formación si siguen cayendo usuarios en phishing.
+
+
+
+## Anexo A de ISO/IEC 27001 (explicado como si fueras un niño)
+
+### ¿Qué es el Anexo A?
+Imagina que ISO 27001 te da un **gran checklist de seguridad** para proteger una empresa.
+Ese checklist es el **Anexo A**.
+
+- Tiene **93 controles de seguridad**.
+- Están agrupados en **4 temas**.
+- Sirve para tratar los riesgos que descubriste antes.
+
+**Ejemplo niño:**
+Si tu casa tiene riesgo de robo, tu checklist puede decir: “cerrar puerta”, “poner alarma”, “no dejar llaves visibles”.
+En una empresa, Anexo A hace algo parecido pero con seguridad de información.
+
+### Estructura del Anexo A (versión 2022)
+
+1. **Controles organizacionales (37)**
+   Reglas y forma de organizar la seguridad.
+   
+   **Ejemplo:**
+   Política de seguridad, gestión de proveedores, respuesta a incidentes.
+
+2. **Controles de personas (8)**
+   Lo que deben hacer las personas para no poner en riesgo la información.
+
+   **Ejemplo:**
+   Capacitación anti-phishing, responsabilidades claras, proceso de alta/baja de usuarios.
+
+3. **Controles físicos (14)**
+   Protección de lugares y equipos.
+
+   **Ejemplo:**
+   Control de acceso a sala de servidores, cámaras, cerraduras de rack.
+
+4. **Controles tecnológicos (34)**
+   Herramientas y medidas técnicas de seguridad.
+
+   **Ejemplo:**
+   MFA, cifrado, firewalls, copias de seguridad, monitoreo y logs.
+
+### Relación con ISO/IEC 27002:2022
+- ISO 27001 te dice **qué marco seguir**.
+- ISO 27002 te explica **cómo aplicar mejor cada control** del Anexo A.
+
+**Ejemplo niño:**
+ISO 27001 es como el “plan de estudio”.
+ISO 27002 es como el “libro con explicaciones y ejemplos” de cada tema.
+
+### ¿Se deben aplicar los 93 controles?
+No siempre.
+ISO 27001 **no obliga** a usar todos, pero sí a justificar muy bien:
+- cuáles aplicas,
+- cuáles no,
+- y por qué.
+
+### Declaración de Aplicabilidad (SoA)
+La **SoA** es un documento clave donde dejas por escrito:
+- qué controles del Anexo A aplicas,
+- cuáles excluyes,
+- y la razón de cada decisión.
+
+**Ejemplo sencillo:**
+Si una empresa no tiene oficinas físicas (todo remoto), puede justificar que ciertos controles físicos no aplican igual; pero debe explicarlo en la SoA.
+
+### Mini ejemplo práctico
+Empresa pequeña de e-commerce:
+- Riesgo: robo de cuentas admin.
+- Control aplicado: MFA + revisión de accesos (tecnológico + organizacional).
+- Riesgo: phishing a empleados.
+- Control aplicado: formación periódica (personas).
+- Todo queda justificado en la **SoA**.
 
 ## Preguntas de entrevista (con respuestas)
 - **Pregunta:** ¿Qué significa PDCA en ISO 27001?
