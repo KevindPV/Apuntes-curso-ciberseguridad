@@ -16,6 +16,7 @@ Cuando el usuario pida tareas relacionadas con contenido del curso:
    - `- Respuesta:`
 6. Si se añaden nuevas preguntas durante una tarea, agrégalas en `preguntas-anki.md` agrupadas por tema.
 7. Prioriza español neutro y estructura en Markdown con encabezados y listas.
+8. Las imagenes deben estar en la carpeta img y nombralas de la forma img1, img2, y etc
 
 ## Formato sugerido para explicaciones
 - Resumen breve
