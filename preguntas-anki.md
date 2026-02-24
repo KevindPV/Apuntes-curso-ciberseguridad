@@ -125,3 +125,10 @@
 
 - **Pregunta:** ¿Qué significa tratar un riesgo mediante “mitigación”?
 - **Respuesta:** Reducir su probabilidad o impacto aplicando controles de seguridad.
+
+
+- **Pregunta:** ¿Por qué es útil un documento de gadgets de ciberseguridad para estudiantes?
+- **Respuesta:** Porque conecta teoría con herramientas reales del mercado y mejora preparación para entrevistas y práctica profesional.
+
+- **Pregunta:** Menciona dos ejemplos de gadgets y su utilidad.
+- **Respuesta:** Autenticador físico para reforzar MFA y analizador de red para detectar tráfico anómalo/dispositivos no autorizados.

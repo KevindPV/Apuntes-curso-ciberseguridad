@@ -179,6 +179,33 @@ Si malware intenta resolver dominios maliciosos para recibir instrucciones, Port
 - Prioriza bloquear conexiones que no tengan justificación funcional.
 - Combínalo con buenas prácticas: sistema actualizado, antivirus y navegación segura.
 
+
+### Recurso práctico de gadgets de ciberseguridad (material adicional)
+En esta clase también se presenta un documento práctico con gadgets y herramientas de ciberseguridad como apoyo al curso. La idea es que el estudiante relacione conceptos teóricos con tecnologías reales del mercado.
+
+#### ¿Qué incluye este recurso?
+- Dispositivos de autenticación (tokens, llaves físicas).
+- Routers y firewalls para protección de red.
+- Herramientas/protectores de privacidad.
+- Herramientas de análisis de red.
+- Soluciones relacionadas con señales RFID y control físico.
+
+#### ¿Para qué sirve en la práctica?
+1. **Ampliar vocabulario técnico** para entrevistas y entornos profesionales.
+2. **Comparar soluciones** según contexto (hogar, pyme, empresa grande).
+3. **Tomar decisiones con criterio** sobre costo, cobertura de riesgo e integración.
+
+#### Ejemplos claros
+- **Autenticador físico + MFA:** reduce riesgo de robo de cuentas por phishing.
+- **Router/firewall con reglas segmentadas:** limita movimiento lateral entre redes.
+- **Analizador de red:** ayuda a detectar tráfico anómalo o dispositivos no autorizados.
+- **Control RFID seguro:** evita accesos físicos indebidos en oficinas/laboratorios.
+
+#### Recomendación del instructor (enfoque de aprendizaje)
+- Tómalo como un “mapa” de tecnologías para explorar progresivamente.
+- No se trata de comprar todo, sino de entender cuándo usar cada solución.
+- Mantén curiosidad técnica: probar, comparar y documentar hallazgos acelera tu crecimiento profesional.
+
 ### Errores comunes
 - Bloquear todo sin criterio y romper aplicaciones legítimas.
 - No revisar alertas ni historial de conexiones.
@@ -265,6 +292,33 @@ La **segmentación de red** consiste en separar dispositivos por zonas para que 
 - Cifrar datos en tránsito y en reposo.
 - Auditar logs y configurar alertas de actividad anómala.
 - Revisar periódicamente configuraciones expuestas públicamente.
+
+
+### Recurso práctico de gadgets de ciberseguridad (material adicional)
+En esta clase también se presenta un documento práctico con gadgets y herramientas de ciberseguridad como apoyo al curso. La idea es que el estudiante relacione conceptos teóricos con tecnologías reales del mercado.
+
+#### ¿Qué incluye este recurso?
+- Dispositivos de autenticación (tokens, llaves físicas).
+- Routers y firewalls para protección de red.
+- Herramientas/protectores de privacidad.
+- Herramientas de análisis de red.
+- Soluciones relacionadas con señales RFID y control físico.
+
+#### ¿Para qué sirve en la práctica?
+1. **Ampliar vocabulario técnico** para entrevistas y entornos profesionales.
+2. **Comparar soluciones** según contexto (hogar, pyme, empresa grande).
+3. **Tomar decisiones con criterio** sobre costo, cobertura de riesgo e integración.
+
+#### Ejemplos claros
+- **Autenticador físico + MFA:** reduce riesgo de robo de cuentas por phishing.
+- **Router/firewall con reglas segmentadas:** limita movimiento lateral entre redes.
+- **Analizador de red:** ayuda a detectar tráfico anómalo o dispositivos no autorizados.
+- **Control RFID seguro:** evita accesos físicos indebidos en oficinas/laboratorios.
+
+#### Recomendación del instructor (enfoque de aprendizaje)
+- Tómalo como un “mapa” de tecnologías para explorar progresivamente.
+- No se trata de comprar todo, sino de entender cuándo usar cada solución.
+- Mantén curiosidad técnica: probar, comparar y documentar hallazgos acelera tu crecimiento profesional.
 
 ### Errores comunes
 - Dejar buckets/almacenamiento públicos sin necesidad.
@@ -364,6 +418,33 @@ La **segmentación de red** consiste en separar dispositivos por zonas para que 
 - Desactivar funciones no utilizadas (UPnP, acceso remoto, puertos innecesarios).
 - Monitorizar tráfico anómalo de los dispositivos.
 - Comprar equipos con soporte activo y política de parches clara.
+
+
+### Recurso práctico de gadgets de ciberseguridad (material adicional)
+En esta clase también se presenta un documento práctico con gadgets y herramientas de ciberseguridad como apoyo al curso. La idea es que el estudiante relacione conceptos teóricos con tecnologías reales del mercado.
+
+#### ¿Qué incluye este recurso?
+- Dispositivos de autenticación (tokens, llaves físicas).
+- Routers y firewalls para protección de red.
+- Herramientas/protectores de privacidad.
+- Herramientas de análisis de red.
+- Soluciones relacionadas con señales RFID y control físico.
+
+#### ¿Para qué sirve en la práctica?
+1. **Ampliar vocabulario técnico** para entrevistas y entornos profesionales.
+2. **Comparar soluciones** según contexto (hogar, pyme, empresa grande).
+3. **Tomar decisiones con criterio** sobre costo, cobertura de riesgo e integración.
+
+#### Ejemplos claros
+- **Autenticador físico + MFA:** reduce riesgo de robo de cuentas por phishing.
+- **Router/firewall con reglas segmentadas:** limita movimiento lateral entre redes.
+- **Analizador de red:** ayuda a detectar tráfico anómalo o dispositivos no autorizados.
+- **Control RFID seguro:** evita accesos físicos indebidos en oficinas/laboratorios.
+
+#### Recomendación del instructor (enfoque de aprendizaje)
+- Tómalo como un “mapa” de tecnologías para explorar progresivamente.
+- No se trata de comprar todo, sino de entender cuándo usar cada solución.
+- Mantén curiosidad técnica: probar, comparar y documentar hallazgos acelera tu crecimiento profesional.
 
 ### Errores comunes
 - Confiar en configuración de fábrica.
@@ -534,6 +615,33 @@ Resultado típico por color/nivel:
    - Probabilidad: Posible.
    - Nivel: Alto.
    - Respuesta: cifrado de disco + control remoto + política de bloqueo.
+
+
+### Recurso práctico de gadgets de ciberseguridad (material adicional)
+En esta clase también se presenta un documento práctico con gadgets y herramientas de ciberseguridad como apoyo al curso. La idea es que el estudiante relacione conceptos teóricos con tecnologías reales del mercado.
+
+#### ¿Qué incluye este recurso?
+- Dispositivos de autenticación (tokens, llaves físicas).
+- Routers y firewalls para protección de red.
+- Herramientas/protectores de privacidad.
+- Herramientas de análisis de red.
+- Soluciones relacionadas con señales RFID y control físico.
+
+#### ¿Para qué sirve en la práctica?
+1. **Ampliar vocabulario técnico** para entrevistas y entornos profesionales.
+2. **Comparar soluciones** según contexto (hogar, pyme, empresa grande).
+3. **Tomar decisiones con criterio** sobre costo, cobertura de riesgo e integración.
+
+#### Ejemplos claros
+- **Autenticador físico + MFA:** reduce riesgo de robo de cuentas por phishing.
+- **Router/firewall con reglas segmentadas:** limita movimiento lateral entre redes.
+- **Analizador de red:** ayuda a detectar tráfico anómalo o dispositivos no autorizados.
+- **Control RFID seguro:** evita accesos físicos indebidos en oficinas/laboratorios.
+
+#### Recomendación del instructor (enfoque de aprendizaje)
+- Tómalo como un “mapa” de tecnologías para explorar progresivamente.
+- No se trata de comprar todo, sino de entender cuándo usar cada solución.
+- Mantén curiosidad técnica: probar, comparar y documentar hallazgos acelera tu crecimiento profesional.
 
 ### Errores comunes
 - Evaluar riesgos “a ojo” sin criterios definidos.
