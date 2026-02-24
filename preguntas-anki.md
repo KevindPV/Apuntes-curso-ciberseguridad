@@ -94,22 +94,19 @@
 - **Pregunta:** Da un ejemplo concreto de segmentación en una casa con IoT.
 - **Respuesta:** Crear una red separada para cámaras/bombillas/TV y bloquear que esa red acceda a laptops o móviles personales.
 
-## Sección 5 - Video 28 (Tipos de controles de seguridad)
+## Sección 5 - Video 28 (Estándares, reglamentos y buenas prácticas)
 
-- **Pregunta:** ¿Qué son los controles preventivos?
-- **Respuesta:** Son medidas que buscan evitar que un incidente ocurra, por ejemplo MFA, firewall o segmentación.
+- **Pregunta:** ¿Qué es ISO 27001 en una frase?
+- **Respuesta:** Es un estándar internacional para gestionar la seguridad de la información mediante un SGSI basado en riesgos.
 
-- **Pregunta:** ¿Qué diferencia hay entre control detectivo y correctivo?
-- **Respuesta:** El detectivo identifica incidentes o anomalías; el correctivo ayuda a contener y recuperar después del incidente.
+- **Pregunta:** ¿Cuál es la diferencia principal entre GDPR y HIPAA?
+- **Respuesta:** GDPR regula datos personales en la UE de forma general; HIPAA protege específicamente datos de salud en EE. UU.
 
-- **Pregunta:** ¿Por qué es clave comparar soluciones de ciberseguridad?
-- **Respuesta:** Para elegir herramientas alineadas al riesgo real, presupuesto e integración técnica del entorno.
+- **Pregunta:** ¿Para qué sirven los CIS Controls?
+- **Respuesta:** Para aplicar controles prácticos y priorizados que reduzcan riesgo rápidamente.
 
-- **Pregunta:** ¿Qué es un control compensatorio?
-- **Respuesta:** Es una medida alternativa que reduce el riesgo cuando no se puede aplicar el control ideal por limitaciones técnicas o de negocio.
+- **Pregunta:** ¿Qué aporta NIST CSF a una organización?
+- **Respuesta:** Un marco por funciones (Identificar, Proteger, Detectar, Responder, Recuperar) para organizar y mejorar el programa de ciberseguridad.
 
-- **Pregunta:** ¿Qué son los controles de diversidad en ciberseguridad?
-- **Respuesta:** Estrategias que usan tecnologías o proveedores distintos para reducir dependencia de un único punto de fallo.
-
-- **Pregunta:** Menciona ejemplos de controles físicos.
-- **Respuesta:** Cerraduras de rack, control de acceso con tarjeta/biometría, cámaras de vigilancia y registro de visitantes.
+- **Pregunta:** ¿Qué mide un enfoque CMM en ciberseguridad?
+- **Respuesta:** El nivel de madurez de procesos, desde prácticas ad-hoc hasta procesos optimizados con mejora continua.

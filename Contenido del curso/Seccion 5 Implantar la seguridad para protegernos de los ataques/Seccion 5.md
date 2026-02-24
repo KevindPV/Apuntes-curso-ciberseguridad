@@ -5,7 +5,7 @@
 - [**Video 25:** Practicamos con el firewall Portmaster](#video-25)
 - [**Video 26:** Seguridad en la nube](#video-26)
 - [**Video 27:** Seguridad en dispositivos IoT](#video-27)
-- [**Video 28:** Tipos de controles de seguridad](#video-28)
+- [**Video 28:** Estándares, reglamentos y buenas prácticas](#video-28)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -382,76 +382,92 @@ La **segmentación de red** consiste en separar dispositivos por zonas para que 
 
 
 <a id="video-28"></a>
-## 28. Tipos de controles de seguridad
+## 28. Estándares, reglamentos y buenas prácticas
 
 ### Resumen breve
-En este video se presenta un recurso con gadgets y soluciones de ciberseguridad para entender qué controles existen en el mercado y cómo pueden aplicarse para mejorar la seguridad personal y empresarial.
+En ciberseguridad, los estándares y normativas ayudan a pasar de “hacer cosas por intuición” a trabajar con un marco sólido, medible y auditable. Esto permite reducir riesgos legales, técnicos y de reputación.
 
-### ¿Qué son los controles de seguridad?
-Son medidas técnicas, físicas y administrativas que reducen riesgos, previenen incidentes y mejoran la capacidad de detección y respuesta.
+### Conceptos clave
+- **Estándar:** guía reconocida para implementar seguridad de forma estructurada (ej. ISO 27001, NIST, CIS).
+- **Normativa/Reglamento:** obligación legal o sectorial que puede generar sanciones si no se cumple (ej. GDPR, HIPAA).
+- **Buena práctica:** recomendación operativa que mejora la postura de seguridad aunque no siempre sea ley.
 
-### Tipos de controles (explicación simple)
-1. **Controles preventivos:** evitan que el ataque ocurra.
-   - Ejemplos: MFA, firewall, políticas de contraseñas, segmentación de red.
+## Principales marcos y regulaciones
 
-2. **Controles detectivos:** identifican actividad sospechosa.
-   - Ejemplos: SIEM, IDS, monitoreo de logs, alertas de comportamiento anómalo.
+### 1) ISO 27001
+Es un estándar internacional para implementar un **Sistema de Gestión de Seguridad de la Información (SGSI)**.
+- Enfoque basado en riesgos.
+- Define políticas, controles, roles, evidencias y mejora continua.
 
-3. **Controles correctivos:** ayudan a recuperar o contener tras un incidente.
-   - Ejemplos: EDR aislando endpoint, restauración de backups, playbooks SOAR.
+**Ejemplo simple:**
+Una empresa crea inventario de activos, clasifica datos sensibles y aplica controles (accesos, cifrado, backups) con revisiones periódicas.
 
-4. **Controles compensatorios:** medidas alternativas cuando no se puede aplicar un control ideal.
-   - Ejemplos: si un sistema legacy no soporta MFA, se compensa con acceso por VPN + segmentación + monitoreo reforzado.
+### 2) HIPAA
+Normativa de EE. UU. para proteger datos de salud (PHI).
+- Muy relevante para hospitales, clínicas, aseguradoras y proveedores que tratan datos médicos.
+- Exige salvaguardas administrativas, técnicas y físicas.
 
-5. **Controles de diversidad:** usar tecnologías/proveedores distintos para evitar un punto único de fallo.
-   - Ejemplos: doble proveedor DNS, soluciones de seguridad en capas de fabricantes distintos, copias en plataformas separadas.
+**Ejemplo simple:**
+Una clínica controla quién puede ver historiales clínicos, registra accesos y cifra información de pacientes.
 
-6. **Controles físicos:** barreras materiales para proteger equipos e infraestructura.
-   - Ejemplos: cerraduras de rack, tarjetas de acceso, cámaras de vigilancia, control de visitantes, sensores de apertura.
+### 3) GDPR
+Reglamento de protección de datos de la Unión Europea.
+- Protege datos personales y derechos de los titulares.
+- Exige base legal de tratamiento, minimización de datos, notificación de incidentes y medidas de seguridad adecuadas.
 
+**Ejemplo simple:**
+Una tienda online permite al usuario descargar/eliminar sus datos y reporta brechas en los tiempos legales requeridos.
 
-### Ejemplo integrado rápido
-- **Preventivo:** firewall bloquea puertos innecesarios.
-- **Detectivo:** SIEM alerta sobre intentos de acceso anómalos.
-- **Correctivo:** EDR aísla el endpoint comprometido.
-- **Compensatorio:** servidor antiguo sin parche se aísla en VLAN con reglas estrictas.
-- **Diversidad:** backup local + backup en otro proveedor cloud.
-- **Físico:** sala de servidores con control biométrico.
+### 4) CIS (CIS Controls)
+Conjunto de controles priorizados y prácticos.
+- Muy útil para empezar rápido con acciones de alto impacto.
+- Facilita priorizar “qué hacer primero”.
 
-### Gadgets y herramientas mencionadas (valor práctico)
-- **Dispositivos de autenticación:** llaves físicas/FIDO para reforzar acceso.
-- **Routers y firewalls:** control del tráfico y segmentación.
-- **Protectores de privacidad:** herramientas para reducir rastreo y exposición de datos.
-- **Comparativas de soluciones:** análisis entre productos para elegir según necesidad y contexto.
+**Ejemplo simple:**
+Primero aplica inventario de activos, gestión de vulnerabilidades y hardening antes de proyectos más complejos.
 
-### ¿Por qué este recurso es importante para estudiantes?
-- Te familiariza con términos reales del mercado.
-- Te prepara para conversaciones técnicas en entrevistas y trabajo.
-- Te ayuda a relacionar teoría con soluciones concretas usadas por empresas.
+### 5) NIST
+Marcos y guías de ciberseguridad ampliamente usados (ej. NIST CSF, SP 800).
+- Organiza seguridad en funciones como: **Identificar, Proteger, Detectar, Responder y Recuperar**.
+- Excelente para madurar procesos por fases.
 
-### Ejemplos específicos y claros
-- **Ejemplo 1 (acceso):** empresa habilita llaves de autenticación física para cuentas admin; baja riesgo de phishing.
-- **Ejemplo 2 (red):** pyme implementa firewall + VLAN para separar administración, usuarios e IoT.
-- **Ejemplo 3 (detección):** equipo SOC usa SIEM para correlacionar eventos y priorizar alertas críticas.
+**Ejemplo simple:**
+Una empresa usa NIST CSF para mapear brechas: detecta que “Detectar” está débil y prioriza SIEM + casos de uso.
 
-### Cómo elegir un control de seguridad (mini guía)
-1. Identificar activo crítico (datos, cuentas, infraestructura).
-2. Medir riesgo principal (phishing, ransomware, fuga de datos, etc.).
-3. Elegir control que reduzca ese riesgo con costo razonable.
-4. Probar, documentar y revisar periódicamente su efectividad.
+### 6) CMM (madurez de capacidades)
+Modelo para evaluar nivel de madurez de procesos.
+- Ayuda a pasar de acciones ad-hoc a procesos definidos y optimizados.
+- Útil para planificar mejora progresiva de la ciberseguridad.
 
-### Errores comunes
-- Comprar herramientas sin estrategia de riesgo.
-- Elegir por moda y no por necesidad del entorno.
-- Implementar controles sin capacitación del equipo.
-- No medir resultados ni ajustar configuraciones.
+**Ejemplo simple:**
+Un equipo SOC pasa de responder incidentes sin procedimiento (baja madurez) a usar playbooks, métricas y mejora continua (alta madurez).
 
-### Preguntas de entrevista (con respuestas)
-- **Pregunta:** ¿Qué diferencia hay entre un control preventivo y uno detectivo?
-- **Respuesta:** El preventivo intenta impedir el incidente; el detectivo lo identifica cuando ocurre o está por ocurrir.
+## ¿Cómo se usan juntos en la práctica?
+- **ISO 27001:** estructura de gestión y gobernanza.
+- **NIST/CIS:** guías técnicas y priorización operativa.
+- **GDPR/HIPAA:** cumplimiento legal/regulatorio según sector y datos.
+- **CMM:** medición del avance y madurez del programa.
 
-- **Pregunta:** ¿Por qué es útil comparar herramientas de ciberseguridad antes de comprar?
-- **Respuesta:** Porque cada solución cubre riesgos distintos, tiene costos/licencias diferentes y puede integrarse mejor o peor con el entorno actual.
+## Mini caso práctico
+Una startup de salud digital:
+1. Usa **ISO 27001** para definir su SGSI.
+2. Aplica **CIS** para endurecer endpoints y servidores.
+3. Mapea procesos con **NIST CSF** para detectar brechas.
+4. Cumple **GDPR** (clientes UE) y **HIPAA** (alianzas médicas en EE. UU.).
+5. Evalúa madurez con enfoque **CMM** cada trimestre.
 
-- **Pregunta:** Menciona tres controles para una pyme con presupuesto limitado.
-- **Respuesta:** MFA en cuentas críticas, firewall bien configurado y política de copias de seguridad verificadas.
+## Errores comunes
+- Creer que “cumplir” equivale a “estar seguro” al 100%.
+- Implementar marcos sin adaptarlos al contexto del negocio.
+- No generar evidencias (logs, reportes, auditorías).
+- Intentar aplicar todo al mismo tiempo sin priorización.
+
+## Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Qué diferencia hay entre ISO 27001 y GDPR?
+- **Respuesta:** ISO 27001 es un estándar de gestión de seguridad; GDPR es un reglamento legal de protección de datos personales.
+
+- **Pregunta:** ¿Para qué sirve CIS en una empresa pequeña?
+- **Respuesta:** Para priorizar controles técnicos de alto impacto y mejorar seguridad rápidamente con recursos limitados.
+
+- **Pregunta:** ¿Por qué combinar NIST con un modelo de madurez tipo CMM?
+- **Respuesta:** NIST guía qué capacidades debes tener; CMM ayuda a medir qué tan maduras están y cómo mejorar por etapas.
