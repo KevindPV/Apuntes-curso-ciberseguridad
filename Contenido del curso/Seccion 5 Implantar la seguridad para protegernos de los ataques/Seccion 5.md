@@ -2,6 +2,7 @@
 
 ## Contenido de la seccion
 - [**Video 24:** Implantar la seguridad para protegernos de los ataques](#video-24)
+- [**Video 25:** Practicamos con el firewall Portmaster](#video-25)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -129,3 +130,62 @@ ACL de red: “solo la subred de administración puede acceder por SSH al servid
 
 - **Pregunta:** ¿Por qué la DMZ reduce impacto pero no elimina riesgo?
 - **Respuesta:** Porque segmenta y aísla servicios expuestos, dificultando el acceso directo a la red interna; aun así, si hay malas configuraciones o vulnerabilidades, un atacante puede avanzar lateralmente.
+
+
+<a id="video-25"></a>
+## 25. Practicamos con el firewall Portmaster
+
+### Resumen breve
+Portmaster es un **firewall gratuito y de código abierto** (muy usado en Windows y también disponible en Linux) que permite ver y controlar conexiones salientes y entrantes del sistema para detectar actividad sospechosa y mejorar privacidad.
+
+### ¿Qué es Portmaster y por qué usarlo?
+- Es una capa adicional de control sobre la red, más enfocada en visibilidad y privacidad.
+- Permite revisar **qué aplicación se conecta**, **a qué dominio/IP**, y **con qué frecuencia**.
+- Ayuda a detectar comportamiento anómalo (por ejemplo, una app que no debería hablar con servidores externos).
+
+**Ejemplo simple:**
+Instalas un programa de edición de imágenes y Portmaster muestra conexiones frecuentes a dominios desconocidos. Esto puede indicar telemetría excesiva o posible riesgo.
+
+### ¿Qué es DNS? (explicado fácil)
+El **DNS (Domain Name System)** es como la agenda de Internet:
+- Tú escribes `google.com`.
+- El DNS traduce ese nombre a una IP (por ejemplo, `142.250.x.x`) para que tu equipo sepa a dónde conectarse.
+
+Sin DNS, tendrías que recordar IPs numéricas para cada sitio web.
+
+### ¿Cómo ayuda Portmaster a proteger el DNS?
+Portmaster mejora la seguridad y privacidad DNS al permitir:
+1. **Cambiar el DNS por defecto** por uno más privado y confiable.
+2. **Reducir filtraciones de privacidad**, evitando resolutores DNS inseguros del ISP cuando no conviene.
+3. **Monitorear conexiones DNS** para identificar solicitudes raras a dominios sospechosos.
+4. **Bloquear rastreadores y anuncios**, lo que reduce superficie de seguimiento y conexiones innecesarias.
+
+**Ejemplo simple:**
+Si malware intenta resolver dominios maliciosos para recibir instrucciones, Portmaster puede ayudar a detectarlo por el patrón de consultas y permitir bloquear ese tráfico.
+
+### Funciones prácticas vistas en clase
+- Monitoreo de conexiones entrantes/salientes en tiempo real.
+- Filtros por país, dominio o aplicación para investigar eventos.
+- Opción **Safe Privacy Network** con enfoque de `split tunneling` (definir qué tráfico pasa por qué ruta).
+- Configuración simple de DNS para mejorar privacidad y, en muchos casos, rendimiento de navegación.
+
+### Recomendaciones de uso
+- Instálalo y revisa conexiones periódicamente.
+- Empieza con modo observación y luego endurece reglas gradualmente.
+- Prioriza bloquear conexiones que no tengan justificación funcional.
+- Combínalo con buenas prácticas: sistema actualizado, antivirus y navegación segura.
+
+### Errores comunes
+- Bloquear todo sin criterio y romper aplicaciones legítimas.
+- No revisar alertas ni historial de conexiones.
+- Dejar DNS por defecto sin evaluar privacidad/seguridad.
+
+### Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Qué ventaja ofrece Portmaster frente al firewall básico del sistema?
+- **Respuesta:** Mayor visibilidad por aplicación/dominio, mejor control de conexiones salientes y funciones enfocadas en privacidad (como gestión DNS y bloqueo de rastreadores).
+
+- **Pregunta:** ¿Qué es DNS y por qué es crítico en ciberseguridad?
+- **Respuesta:** Es el sistema que traduce dominios a IP; si se manipula o usa sin protección, puede redirigir tráfico a sitios maliciosos o exponer hábitos de navegación.
+
+- **Pregunta:** ¿Cómo ayuda un firewall como Portmaster ante malware basado en red?
+- **Respuesta:** Permite detectar patrones anómalos de conexión y bloquear comunicaciones sospechosas por app, dominio o destino.

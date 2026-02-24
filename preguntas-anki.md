@@ -54,3 +54,14 @@
 
 - **Pregunta:** ¿Cómo interpretar rápidamente un diagrama con Red local, DMZ y firewalls?
 - **Respuesta:** Primero ubica zonas, luego controles (firewalls/router) y finalmente el flujo de tráfico; la regla general es que Internet accede a DMZ, no directamente a la red local.
+
+## Sección 5 - Video 25 (Portmaster)
+
+- **Pregunta:** ¿Qué es Portmaster y cuál es su principal utilidad?
+- **Respuesta:** Es un firewall gratuito y de código abierto que permite monitorear y controlar conexiones por aplicación para mejorar seguridad y privacidad.
+
+- **Pregunta:** ¿Qué es DNS explicado de forma simple?
+- **Respuesta:** Es el sistema que traduce nombres de dominio (como google.com) a direcciones IP para poder conectar con servidores en Internet.
+
+- **Pregunta:** ¿Cómo contribuye Portmaster a proteger el DNS?
+- **Respuesta:** Permite cambiar a resolutores más privados, monitorear consultas sospechosas y reducir rastreo/bloquear conexiones no deseadas.
