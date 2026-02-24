@@ -223,6 +223,40 @@ Una empresa guarda datos sensibles en nube privada y usa nube pública para su w
 - En **PaaS** reduces tareas operativas, pero debes configurar bien accesos y secretos.
 - En **SaaS** la seguridad de la app la gestiona el proveedor, pero tú controlas identidades, permisos y datos.
 
+
+### Protección con segmentación de red (clave en IoT)
+La **segmentación de red** consiste en separar dispositivos por zonas para que un incidente en una zona no comprometa toda la red.
+
+#### ¿Por qué ayuda tanto?
+- Reduce movimiento lateral del atacante.
+- Aísla dispositivos menos confiables (como IoT baratos con poco soporte).
+- Facilita aplicar reglas de firewall más estrictas por segmento.
+
+#### Ejemplos específicos y claros
+1. **Casa (escenario básico):**
+   - Red A: laptops/móviles personales.
+   - Red B (guest/Iot): cámaras, bombillas, TV inteligente.
+   - Regla: IoT **no puede iniciar conexiones** hacia Red A.
+   - Beneficio: si comprometen una bombilla, no saltan fácilmente al portátil con datos sensibles.
+
+2. **PyME (escenario oficina):**
+   - VLAN 10: administración/finanzas.
+   - VLAN 20: usuarios de oficina.
+   - VLAN 30: IoT (cámaras, control de acceso, sensores).
+   - Regla: VLAN 30 solo sale a Internet y a un servidor de gestión autorizado.
+   - Beneficio: evita que una cámara comprometida llegue a equipos contables.
+
+3. **Industria/OT (escenario avanzado):**
+   - Zona IT corporativa separada de zona OT/IoT industrial.
+   - Tráfico entre zonas solo por jump server o firewall con listas ACL estrictas.
+   - Beneficio: incidentes en correo/IT no impactan directamente sistemas físicos de planta.
+
+#### Reglas prácticas recomendadas
+- Aplicar modelo **deny by default** entre segmentos.
+- Permitir solo puertos/protocolos necesarios.
+- Bloquear administración remota desde Internet a IoT.
+- Registrar y auditar intentos de cruce entre segmentos.
+
 ### Buenas prácticas rápidas
 - Aplicar principio de mínimo privilegio en cuentas cloud.
 - Activar MFA para consolas administrativas.
@@ -288,6 +322,40 @@ Si una cámara IP está mal configurada, un atacante puede usarla como punto de 
 - **Cámaras zombi:** cámaras comprometidas que pasan a formar parte de botnets.
 - **Termostatos inteligentes:** usados como puerta para pivotar dentro de la red doméstica.
 - **Bombilla con WiFi en texto plano:** ejemplo de mala práctica de almacenamiento de secretos.
+
+
+### Protección con segmentación de red (clave en IoT)
+La **segmentación de red** consiste en separar dispositivos por zonas para que un incidente en una zona no comprometa toda la red.
+
+#### ¿Por qué ayuda tanto?
+- Reduce movimiento lateral del atacante.
+- Aísla dispositivos menos confiables (como IoT baratos con poco soporte).
+- Facilita aplicar reglas de firewall más estrictas por segmento.
+
+#### Ejemplos específicos y claros
+1. **Casa (escenario básico):**
+   - Red A: laptops/móviles personales.
+   - Red B (guest/Iot): cámaras, bombillas, TV inteligente.
+   - Regla: IoT **no puede iniciar conexiones** hacia Red A.
+   - Beneficio: si comprometen una bombilla, no saltan fácilmente al portátil con datos sensibles.
+
+2. **PyME (escenario oficina):**
+   - VLAN 10: administración/finanzas.
+   - VLAN 20: usuarios de oficina.
+   - VLAN 30: IoT (cámaras, control de acceso, sensores).
+   - Regla: VLAN 30 solo sale a Internet y a un servidor de gestión autorizado.
+   - Beneficio: evita que una cámara comprometida llegue a equipos contables.
+
+3. **Industria/OT (escenario avanzado):**
+   - Zona IT corporativa separada de zona OT/IoT industrial.
+   - Tráfico entre zonas solo por jump server o firewall con listas ACL estrictas.
+   - Beneficio: incidentes en correo/IT no impactan directamente sistemas físicos de planta.
+
+#### Reglas prácticas recomendadas
+- Aplicar modelo **deny by default** entre segmentos.
+- Permitir solo puertos/protocolos necesarios.
+- Bloquear administración remota desde Internet a IoT.
+- Registrar y auditar intentos de cruce entre segmentos.
 
 ### Buenas prácticas rápidas
 - Segmentar IoT en una red separada (VLAN/guest network).

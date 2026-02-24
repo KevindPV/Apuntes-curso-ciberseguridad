@@ -87,3 +87,9 @@
 
 - **Pregunta:** ¿Qué riesgo implica almacenar la contraseña WiFi en texto plano en un IoT?
 - **Respuesta:** Que un atacante que comprometa el dispositivo puede recuperar la clave y obtener acceso a la red inalámbrica.
+
+- **Pregunta:** ¿Qué objetivo principal tiene la segmentación de red en entornos IoT?
+- **Respuesta:** Limitar el movimiento lateral de un atacante para que el compromiso de un dispositivo no afecte toda la red.
+
+- **Pregunta:** Da un ejemplo concreto de segmentación en una casa con IoT.
+- **Respuesta:** Crear una red separada para cámaras/bombillas/TV y bloquear que esa red acceda a laptops o móviles personales.
