@@ -48,3 +48,9 @@
 
 - **Pregunta:** ¿Para qué sirve EDR en un incidente?
 - **Respuesta:** Para detectar comportamiento malicioso en endpoints y ejecutar acciones de contención como aislar equipos o poner archivos en cuarentena.
+
+- **Pregunta:** En una arquitectura con DMZ, ¿por qué no se debe exponer directamente la red local a Internet?
+- **Respuesta:** Porque aumenta mucho el riesgo; la DMZ crea una capa intermedia para publicar servicios y contener impactos si ocurre una intrusión.
+
+- **Pregunta:** ¿Cómo interpretar rápidamente un diagrama con Red local, DMZ y firewalls?
+- **Respuesta:** Primero ubica zonas, luego controles (firewalls/router) y finalmente el flujo de tráfico; la regla general es que Internet accede a DMZ, no directamente a la red local.

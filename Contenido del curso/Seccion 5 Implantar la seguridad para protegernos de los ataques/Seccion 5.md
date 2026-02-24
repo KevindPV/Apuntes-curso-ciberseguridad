@@ -5,6 +5,30 @@
 ### Resumen breve
 En seguridad de sistemas no existe una única defensa perfecta. Se aplican varias capas (red, aplicaciones, endpoints y monitoreo) para reducir riesgos y detectar ataques a tiempo.
 
+
+## Imagen de referencia de la arquitectura
+
+![Diagrama de red con Red local, DMZ, firewalls, router e Internet](./imagen-arquitectura-seguridad-seccion5.svg)
+
+### ¿Cómo entender esta imagen paso a paso?
+1. **Identifica las zonas**:
+   - A la izquierda está la **Red local** (equipos internos de la empresa).
+   - En el centro está la **DMZ** (servidores expuestos como web/correo/app).
+   - A la derecha está **Internet**.
+2. **Observa los firewalls**:
+   - El primer firewall separa red interna y zonas intermedias.
+   - El segundo firewall protege la salida/entrada hacia Internet.
+3. **Sigue el recorrido del tráfico**:
+   - Un usuario de Internet no debería llegar directo a la red local.
+   - Primero pasa por controles (firewalls/router) y, si aplica, llega a servicios en DMZ.
+4. **Idea clave de seguridad**:
+   - La DMZ actúa como “zona colchón”. Si comprometen un servidor público, aún hay barreras para llegar a la red interna.
+
+**Ejemplo muy sencillo:**
+- Tu empresa publica una web en DMZ.
+- Un atacante explota la web.
+- Gracias a firewalls + segmentación, el atacante no puede conectarse directamente al servidor de nómina que está en la red local.
+
 ## Conceptos clave (explicación sencilla)
 
 ### 1) Zona Desmilitarizada (DMZ)
