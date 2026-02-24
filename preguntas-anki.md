@@ -151,6 +151,15 @@
 
 ## Sección 6 - Video 33 (Introducción a ISO 27001)
 
+
+- **Pregunta:** ¿Qué significa proteger la confidencialidad, integridad y disponibilidad (CIA)?
+- **Respuesta:** Confidencialidad = acceso solo autorizado; Integridad = datos correctos y no alterados; Disponibilidad = datos/sistemas accesibles cuando se necesitan.
+
+- **Pregunta:** ¿ISO 27001 reemplaza leyes como GDPR?
+- **Respuesta:** No. ISO 27001 ayuda a organizar controles y evidencias para cumplir requisitos, pero no sustituye obligaciones legales.
+
+- **Pregunta:** ¿Por qué ISO 27001 puede ayudar a ganar contratos?
+- **Respuesta:** Porque demuestra madurez en seguridad y cumplimiento, algo que muchos clientes y licitaciones exigen como requisito.
 - **Pregunta:** ¿Qué busca ISO 27001 en una organización?
 - **Respuesta:** Implementar y mejorar un SGSI para proteger la información con enfoque basado en riesgos.
 
