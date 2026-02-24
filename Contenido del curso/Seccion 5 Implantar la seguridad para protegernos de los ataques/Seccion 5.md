@@ -3,6 +3,7 @@
 ## Contenido de la seccion
 - [**Video 24:** Implantar la seguridad para protegernos de los ataques](#video-24)
 - [**Video 25:** Practicamos con el firewall Portmaster](#video-25)
+- [**Video 26:** Seguridad en la nube](#video-26)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -189,3 +190,56 @@ Si malware intenta resolver dominios maliciosos para recibir instrucciones, Port
 
 - **Pregunta:** ¿Cómo ayuda un firewall como Portmaster ante malware basado en red?
 - **Respuesta:** Permite detectar patrones anómalos de conexión y bloquear comunicaciones sospechosas por app, dominio o destino.
+
+
+<a id="video-26"></a>
+## 26. Seguridad en la nube
+
+### Resumen breve
+La seguridad en la nube consiste en proteger datos, aplicaciones e infraestructura que operan en proveedores cloud. Elegir correctamente el tipo de nube y el modelo de servicio impacta directamente en riesgos, costos y responsabilidades de seguridad.
+
+### Tipos de nube
+- **Privada:** infraestructura dedicada a una sola organización.
+- **Pública:** servicios compartidos en proveedores como AWS, Azure, GCP o IBM Cloud.
+- **Híbrida:** combinación de nube privada + pública.
+- **Comunitaria:** infraestructura compartida por organizaciones con necesidades similares (por ejemplo, sector salud o gobierno).
+
+**Ejemplo simple:**
+Una empresa guarda datos sensibles en nube privada y usa nube pública para su web corporativa: eso es un enfoque híbrido.
+
+### Modelos de servicio en la nube
+- **IaaS (Infrastructure as a Service):** el proveedor entrega infraestructura base (VM, red, almacenamiento); el cliente administra SO, apps y configuraciones.
+- **PaaS (Platform as a Service):** el proveedor administra plataforma y runtime; el cliente se enfoca en desarrollar/desplegar aplicaciones.
+- **SaaS (Software as a Service):** el proveedor entrega la aplicación completa; el cliente la usa vía web.
+
+**Ejemplo simple:**
+- IaaS: crear una máquina virtual en AWS/Azure.
+- PaaS: desplegar una app en un servicio gestionado sin administrar servidores.
+- SaaS: usar correo corporativo en la nube.
+
+### ¿Qué cambia en seguridad según el modelo?
+- En **IaaS** tienes más control, pero también más responsabilidad de endurecimiento.
+- En **PaaS** reduces tareas operativas, pero debes configurar bien accesos y secretos.
+- En **SaaS** la seguridad de la app la gestiona el proveedor, pero tú controlas identidades, permisos y datos.
+
+### Buenas prácticas rápidas
+- Aplicar principio de mínimo privilegio en cuentas cloud.
+- Activar MFA para consolas administrativas.
+- Cifrar datos en tránsito y en reposo.
+- Auditar logs y configurar alertas de actividad anómala.
+- Revisar periódicamente configuraciones expuestas públicamente.
+
+### Errores comunes
+- Dejar buckets/almacenamiento públicos sin necesidad.
+- Reutilizar credenciales o claves largas sin rotación.
+- No entender el modelo de responsabilidad compartida.
+
+### Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Qué diferencia principal hay entre nube pública y privada?
+- **Respuesta:** La pública comparte infraestructura entre clientes; la privada está dedicada a una sola organización, con mayor control y aislamiento.
+
+- **Pregunta:** ¿Qué modelo da más control técnico, IaaS, PaaS o SaaS?
+- **Respuesta:** IaaS, porque gestionas más capas (SO, red, apps), aunque también asumes más responsabilidad de seguridad.
+
+- **Pregunta:** Menciona un riesgo típico en seguridad cloud.
+- **Respuesta:** Exposición accidental de recursos (por ejemplo, almacenamiento público mal configurado).

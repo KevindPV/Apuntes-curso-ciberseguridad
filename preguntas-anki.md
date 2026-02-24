@@ -65,3 +65,14 @@
 
 - **Pregunta:** ¿Cómo contribuye Portmaster a proteger el DNS?
 - **Respuesta:** Permite cambiar a resolutores más privados, monitorear consultas sospechosas y reducir rastreo/bloquear conexiones no deseadas.
+
+## Sección 5 - Video 26 (Seguridad en la nube)
+
+- **Pregunta:** ¿Cuáles son los tipos de nube más comunes?
+- **Respuesta:** Privada, pública, híbrida y comunitaria.
+
+- **Pregunta:** ¿Qué significa IaaS, PaaS y SaaS?
+- **Respuesta:** IaaS = infraestructura como servicio, PaaS = plataforma como servicio, SaaS = software como servicio.
+
+- **Pregunta:** ¿Qué riesgo cloud es muy común por mala configuración?
+- **Respuesta:** Exponer públicamente almacenamiento o servicios sin control de acceso adecuado.
