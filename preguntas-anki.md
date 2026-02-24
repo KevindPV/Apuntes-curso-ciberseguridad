@@ -31,3 +31,20 @@
 
 - **Pregunta:** ¿Por qué es importante preservar evidencia durante un incidente?
 - **Respuesta:** Para análisis forense, cumplimiento legal y entender causa raíz sin contaminar pruebas.
+
+## Sección 5 - Seguridad en los sistemas
+
+- **Pregunta:** ¿Cuál es la diferencia principal entre IDS e IPS?
+- **Respuesta:** El IDS detecta y alerta actividad sospechosa; el IPS detecta y además bloquea tráfico malicioso en tiempo real.
+
+- **Pregunta:** ¿Qué función cumple una DMZ en la arquitectura de red?
+- **Respuesta:** Aislar servicios expuestos a Internet de la red interna para reducir impacto en caso de compromiso.
+
+- **Pregunta:** ¿Por qué un WAF no reemplaza un firewall tradicional?
+- **Respuesta:** Porque el WAF protege capa de aplicación web (HTTP/HTTPS), mientras el firewall tradicional filtra tráfico de red por IP/puerto/protocolo.
+
+- **Pregunta:** ¿Qué diferencia hay entre SIEM y SOAR?
+- **Respuesta:** SIEM centraliza y correlaciona eventos de seguridad; SOAR automatiza y orquesta la respuesta usando playbooks.
+
+- **Pregunta:** ¿Para qué sirve EDR en un incidente?
+- **Respuesta:** Para detectar comportamiento malicioso en endpoints y ejecutar acciones de contención como aislar equipos o poner archivos en cuarentena.
