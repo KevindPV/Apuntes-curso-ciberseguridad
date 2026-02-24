@@ -112,8 +112,16 @@ ACL de red: “solo la subred de administración puede acceder por SSH al servid
 - No revisar alertas de SIEM/EDR.
 - Automatizar en SOAR sin validar playbooks (falsos positivos).
 
-## Preguntas de entrevista
-- ¿Cuál es la diferencia práctica entre IDS e IPS?
-- ¿Por qué un WAF no reemplaza un firewall de red?
-- ¿Qué aporta SIEM y qué aporta SOAR en conjunto?
-- ¿Por qué la DMZ reduce impacto pero no elimina riesgo?
+## Preguntas de entrevista (con respuestas)
+
+- **Pregunta:** ¿Cuál es la diferencia práctica entre IDS e IPS?
+- **Respuesta:** El IDS detecta y alerta eventos sospechosos; el IPS detecta y bloquea tráfico malicioso en tiempo real porque está en línea con el flujo de red.
+
+- **Pregunta:** ¿Por qué un WAF no reemplaza un firewall de red?
+- **Respuesta:** Porque protegen capas distintas: el firewall de red controla tráfico por IP/puerto/protocolo (capa de red/transporte) y el WAF inspecciona peticiones HTTP/HTTPS para frenar ataques de aplicación (como SQLi o XSS).
+
+- **Pregunta:** ¿Qué aporta SIEM y qué aporta SOAR en conjunto?
+- **Respuesta:** El SIEM centraliza y correlaciona eventos para detectar incidentes; el SOAR ejecuta playbooks automáticos para responder más rápido (bloqueos, tickets, notificaciones, contención).
+
+- **Pregunta:** ¿Por qué la DMZ reduce impacto pero no elimina riesgo?
+- **Respuesta:** Porque segmenta y aísla servicios expuestos, dificultando el acceso directo a la red interna; aun así, si hay malas configuraciones o vulnerabilidades, un atacante puede avanzar lateralmente.
