@@ -147,3 +147,15 @@
 
 - **Pregunta:** ¿Por qué documentar un incidente es importante?
 - **Respuesta:** Porque permite mejorar controles, actualizar procedimientos y reducir probabilidad de recurrencia.
+
+
+## Sección 6 - Video 33 (Introducción a ISO 27001)
+
+- **Pregunta:** ¿Qué busca ISO 27001 en una organización?
+- **Respuesta:** Implementar y mejorar un SGSI para proteger la información con enfoque basado en riesgos.
+
+- **Pregunta:** ¿Qué ventaja aporta ISO 27001 frente a clientes y socios?
+- **Respuesta:** Demuestra madurez y compromiso con seguridad, mejorando confianza y reputación.
+
+- **Pregunta:** ¿Por qué ISO 27001 mejora la empleabilidad en ciberseguridad?
+- **Respuesta:** Porque es un estándar ampliamente reconocido en roles de GRC, auditoría, riesgos, compliance y operación de seguridad.
