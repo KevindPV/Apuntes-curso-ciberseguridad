@@ -6,6 +6,7 @@
 - [**Video 26:** Seguridad en la nube](#video-26)
 - [**Video 27:** Seguridad en dispositivos IoT](#video-27)
 - [**Video 28:** Estándares, reglamentos y buenas prácticas](#video-28)
+- [**Video 30:** Gestión de riesgos](#video-30)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -471,3 +472,81 @@ Una startup de salud digital:
 
 - **Pregunta:** ¿Por qué combinar NIST con un modelo de madurez tipo CMM?
 - **Respuesta:** NIST guía qué capacidades debes tener; CMM ayuda a medir qué tan maduras están y cómo mejorar por etapas.
+
+
+<a id="video-30"></a>
+## 30. Gestión de riesgos
+
+### Resumen breve
+La gestión de riesgos en ciberseguridad permite priorizar qué amenazas atender primero usando una lógica simple: **Riesgo = impacto x probabilidad**. Así, se evita invertir recursos en problemas poco relevantes y se enfoca el esfuerzo en lo que más daño puede causar.
+
+### Fórmula clave
+**Riesgo = impacto x probabilidad**
+
+- **Impacto (consecuencia):** qué tan grave sería el daño si ocurre el incidente.
+- **Probabilidad:** qué tan factible es que ese incidente ocurra.
+
+**Ejemplo simple:**
+- Vulnerabilidad crítica en servidor expuesto a Internet: impacto alto + probabilidad alta = riesgo muy alto.
+- App interna con fallo menor y poco acceso: impacto bajo + probabilidad baja = riesgo bajo.
+
+### Matriz de riesgo (como en la imagen)
+La matriz cruza:
+- Eje de **consecuencias**: Despreciable, Menores, Moderadas, Mayores, Catastróficas.
+- Eje de **probabilidad**: Raro, Poco probable, Posible, Muy probable, Casi seguro.
+
+Resultado típico por color/nivel:
+- **Bajo** (verde)
+- **Medio** (amarillo)
+- **Alto** (naranja)
+- **Muy alto** (rojo)
+
+#### Cómo interpretarla rápido
+- Si te mueves hacia la derecha (más probabilidad), el riesgo sube.
+- Si te mueves hacia abajo (más consecuencia), el riesgo sube.
+- Las esquinas de mayor atención son las combinaciones de impacto mayor/catastrófico con probabilidad alta.
+
+### Fases de la gestión de riesgos
+1. **Identificación**
+   - Detectar activos, amenazas, vulnerabilidades y escenarios de ataque.
+2. **Evaluación**
+   - Valorar probabilidad e impacto para clasificar riesgos (bajo/medio/alto/muy alto).
+3. **Respuesta**
+   - Tratar riesgos: mitigar, transferir, aceptar o evitar.
+4. **Monitoreo y reporte**
+   - Revisar cambios, medir eficacia de controles y comunicar estado a responsables.
+
+### Ejemplos específicos y fáciles
+1. **Phishing en correo corporativo**
+   - Impacto: Moderado/Alto (robo de credenciales).
+   - Probabilidad: Muy probable.
+   - Nivel: Alto.
+   - Respuesta: MFA + filtro anti-phishing + capacitación.
+
+2. **Servidor sin parches críticos**
+   - Impacto: Catastrófico (ransomware/interrupción).
+   - Probabilidad: Posible–Muy probable.
+   - Nivel: Muy alto.
+   - Respuesta: parche urgente + segmentación + backup verificado.
+
+3. **Laptop sin cifrado**
+   - Impacto: Mayor (fuga de datos por pérdida/robo).
+   - Probabilidad: Posible.
+   - Nivel: Alto.
+   - Respuesta: cifrado de disco + control remoto + política de bloqueo.
+
+### Errores comunes
+- Evaluar riesgos “a ojo” sin criterios definidos.
+- No actualizar la matriz cuando cambian sistemas o amenazas.
+- No asignar dueño del riesgo ni fecha de revisión.
+- Reportar riesgos sin plan de acción priorizado.
+
+### Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Por qué es útil una matriz de riesgo en ciberseguridad?
+- **Respuesta:** Porque permite priorizar decisiones combinando impacto y probabilidad, enfocando recursos en riesgos críticos.
+
+- **Pregunta:** ¿Qué diferencia hay entre identificar y evaluar riesgos?
+- **Respuesta:** Identificar es descubrir qué podría pasar; evaluar es medir qué tan probable y qué tan grave sería.
+
+- **Pregunta:** Menciona cuatro estrategias de respuesta al riesgo.
+- **Respuesta:** Mitigar, transferir, aceptar y evitar.

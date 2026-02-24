@@ -110,3 +110,18 @@
 
 - **Pregunta:** ¿Qué mide un enfoque CMM en ciberseguridad?
 - **Respuesta:** El nivel de madurez de procesos, desde prácticas ad-hoc hasta procesos optimizados con mejora continua.
+
+
+## Sección 5 - Video 30 (Gestión de riesgos)
+
+- **Pregunta:** ¿Cuál es la fórmula básica de gestión de riesgos?
+- **Respuesta:** Riesgo = impacto x probabilidad.
+
+- **Pregunta:** ¿Qué representa la dimensión de consecuencias en una matriz de riesgo?
+- **Respuesta:** El nivel de daño potencial si el incidente ocurre (despreciable hasta catastrófico).
+
+- **Pregunta:** ¿Qué fases tiene la gestión de riesgos?
+- **Respuesta:** Identificación, evaluación, respuesta, monitoreo y reporte.
+
+- **Pregunta:** ¿Qué significa tratar un riesgo mediante “mitigación”?
+- **Respuesta:** Reducir su probabilidad o impacto aplicando controles de seguridad.
