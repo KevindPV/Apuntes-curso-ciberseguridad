@@ -76,3 +76,14 @@
 
 - **Pregunta:** ¿Qué riesgo cloud es muy común por mala configuración?
 - **Respuesta:** Exponer públicamente almacenamiento o servicios sin control de acceso adecuado.
+
+## Sección 5 - Video 27 (Seguridad en dispositivos IoT)
+
+- **Pregunta:** ¿Por qué un dispositivo IoT puede considerarse una “puerta” a la red?
+- **Respuesta:** Porque está conectado y, si tiene fallas o mala configuración, puede ser explotado para acceder a otros sistemas de la red.
+
+- **Pregunta:** ¿Qué controles básicos deben aplicarse en IoT?
+- **Respuesta:** Cambiar credenciales por defecto, actualizar firmware, cifrar comunicaciones y segmentar dispositivos en una red separada.
+
+- **Pregunta:** ¿Qué riesgo implica almacenar la contraseña WiFi en texto plano en un IoT?
+- **Respuesta:** Que un atacante que comprometa el dispositivo puede recuperar la clave y obtener acceso a la red inalámbrica.

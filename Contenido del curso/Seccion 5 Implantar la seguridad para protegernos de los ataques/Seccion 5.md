@@ -4,6 +4,7 @@
 - [**Video 24:** Implantar la seguridad para protegernos de los ataques](#video-24)
 - [**Video 25:** Practicamos con el firewall Portmaster](#video-25)
 - [**Video 26:** Seguridad en la nube](#video-26)
+- [**Video 27:** Seguridad en dispositivos IoT](#video-27)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -243,3 +244,69 @@ Una empresa guarda datos sensibles en nube privada y usa nube pública para su w
 
 - **Pregunta:** Menciona un riesgo típico en seguridad cloud.
 - **Respuesta:** Exposición accidental de recursos (por ejemplo, almacenamiento público mal configurado).
+
+
+<a id="video-27"></a>
+## 27. Seguridad en dispositivos IoT
+
+### Resumen breve
+Los dispositivos IoT (Internet of Things), como Alexa, bombillas inteligentes, cámaras o termostatos conectados, facilitan tareas diarias, pero también amplían la superficie de ataque de una red doméstica o empresarial.
+
+### ¿Qué es IoT y por qué es crítico en ciberseguridad?
+- IoT son dispositivos físicos conectados a Internet que recopilan, envían o reciben datos.
+- Cada dispositivo conectado puede convertirse en una puerta de entrada al entorno digital.
+- Mientras más dispositivos conectados, mayor necesidad de controles de seguridad.
+
+**Ejemplo simple:**
+Si una cámara IP está mal configurada, un atacante puede usarla como punto de acceso para escanear otros equipos de la red local.
+
+### Riesgos comunes en dispositivos IoT
+- Credenciales por defecto o contraseñas débiles.
+- Firmware sin actualizaciones de seguridad.
+- Almacenamiento inseguro de datos sensibles (por ejemplo, contraseña WiFi en texto plano).
+- Exposición innecesaria de servicios a Internet.
+
+### Controles clave para proteger IoT
+1. **Autenticación y autorización robustas**
+   - Cambiar usuarios y contraseñas predeterminadas.
+   - Usar contraseñas únicas y, si existe, MFA.
+   - Limitar permisos por dispositivo/usuario.
+
+2. **Actualizaciones y parches continuos**
+   - Tratar la seguridad como proceso constante.
+   - Actualizar firmware y software para corregir vulnerabilidades nuevas.
+
+3. **Encriptación de extremo a extremo**
+   - Proteger la información sensible que viaja entre dispositivo, app y servidor.
+   - Evitar transmisión en texto plano.
+
+4. **Seguridad física del dispositivo**
+   - Evitar acceso físico no autorizado.
+   - Proteger botones de reset, puertos y ubicación del equipo.
+
+### Casos de ataque mencionados (aprendizaje)
+- **Cámaras zombi:** cámaras comprometidas que pasan a formar parte de botnets.
+- **Termostatos inteligentes:** usados como puerta para pivotar dentro de la red doméstica.
+- **Bombilla con WiFi en texto plano:** ejemplo de mala práctica de almacenamiento de secretos.
+
+### Buenas prácticas rápidas
+- Segmentar IoT en una red separada (VLAN/guest network).
+- Desactivar funciones no utilizadas (UPnP, acceso remoto, puertos innecesarios).
+- Monitorizar tráfico anómalo de los dispositivos.
+- Comprar equipos con soporte activo y política de parches clara.
+
+### Errores comunes
+- Confiar en configuración de fábrica.
+- No cambiar contraseñas por defecto.
+- No revisar actualizaciones de firmware.
+- Mezclar IoT y equipos críticos en la misma red sin segmentación.
+
+### Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Por qué IoT incrementa la superficie de ataque?
+- **Respuesta:** Porque cada dispositivo conectado añade un nuevo punto potencial de explotación, especialmente si tiene mala configuración o firmware desactualizado.
+
+- **Pregunta:** ¿Qué controles mínimos implementarías en una red con IoT?
+- **Respuesta:** Cambio de credenciales por defecto, segmentación de red, actualizaciones periódicas, cifrado de comunicaciones y monitoreo de tráfico.
+
+- **Pregunta:** Da un ejemplo realista de riesgo IoT.
+- **Respuesta:** Una cámara vulnerable se compromete y se integra en una botnet, permitiendo ataques externos o movimiento lateral dentro de la red interna.
