@@ -134,7 +134,7 @@
 - **Respuesta:** Autenticador físico para reforzar MFA y analizador de red para detectar tráfico anómalo/dispositivos no autorizados.
 
 
-## Sección 5 - Video 3 (Gestión de incidentes)
+## Sección 5 - Video 31 (Gestión de incidentes)
 
 - **Pregunta:** ¿Cuáles son las fases típicas de gestión de incidentes?
 - **Respuesta:** Detección e identificación, clasificación y priorización, contención y erradicación, investigación y análisis, recuperación, comunicación, documentación y aprendizaje.

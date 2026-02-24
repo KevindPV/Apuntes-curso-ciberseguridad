@@ -7,7 +7,7 @@
 - [**Video 27:** Seguridad en dispositivos IoT](#video-27)
 - [**Video 29:** Estándares, reglamentos y buenas prácticas](#video-29)
 - [**Video 30:** Gestión de riesgos](#video-30)
-- [**Video 3:** Gestión de incidentes](#video-3)
+- [**Video 31:** Gestión de incidentes](#video-31)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -661,8 +661,8 @@ En esta clase también se presenta un documento práctico con gadgets y herramie
 - **Respuesta:** Mitigar, transferir, aceptar y evitar.
 
 
-<a id="video-3"></a>
-## 3. Gestión de incidentes
+<a id="video-31"></a>
+## Video 31: Gestión de incidentes
 
 ### Resumen breve
 La gestión de incidentes es el proceso que permite responder de forma ordenada ante eventos de seguridad para reducir impacto, recuperar operación y aprender para evitar recurrencias.
