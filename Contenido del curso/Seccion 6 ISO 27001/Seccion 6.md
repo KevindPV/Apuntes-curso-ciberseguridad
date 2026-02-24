@@ -2,6 +2,7 @@
 
 ## Contenido del curso
 - [**Video 33:** Introducción a la ISO 27001](#video-33)
+- [**Video 34:** Estructura de la ISO 27001](#video-34)
 
 <a id="video-33"></a>
 ## Video 33: Introducción a la ISO 27001
@@ -122,3 +123,110 @@ Además, existen rutas de certificación tanto para empresas como para profesion
 
 - **Pregunta:** ¿ISO 27001 ayuda al cumplimiento normativo?
 - **Respuesta:** Sí, facilita organizar evidencias, controles y procesos para responder mejor a regulaciones como GDPR y requisitos contractuales.
+
+
+<a id="video-34"></a>
+## Video 34: Estructura de la ISO 27001
+
+### Resumen breve (explicado como si fueras un niño)
+Imagina que tu casa tiene reglas para que todo esté seguro: cerrar puertas, guardar llaves, revisar ventanas y arreglar lo que falle. ISO 27001 hace eso mismo, pero para la información de una empresa.
+
+## Enfoque PDCA (Plan-Do-Check-Act)
+Piensa en PDCA como un ciclo de 4 pasos para hacerlo cada vez mejor:
+
+1. **Plan (Planificar)**
+   - Decidir qué vas a proteger.
+   - Poner reglas y objetivos.
+   - Ver qué riesgos hay y qué controles usar.
+
+   **Ejemplo niño:**
+   Antes de salir, decides: “voy a cerrar puerta, ventana y apagar la estufa”.
+
+2. **Do (Hacer)**
+   - Hacer lo que planificaste.
+   - Implementar controles y procesos.
+
+   **Ejemplo niño:**
+   Realmente cierras puerta y ventana, y guardas la llave en su lugar.
+
+3. **Check (Verificar)**
+   - Revisar si funcionó.
+   - Medir, monitorear y auditar.
+
+   **Ejemplo niño:**
+   Revisas que la puerta sí quedó cerrada y que nadie entró.
+
+4. **Act (Actuar)**
+   - Mejorar lo que salió mal.
+   - Ajustar para la próxima vez.
+
+   **Ejemplo niño:**
+   Si olvidaste una ventana, la próxima vez pegas una lista en la puerta para no olvidar.
+
+## Estructura ISO/IEC 27001:2022 (Cláusulas 4 a 10)
+
+### 4) Contexto de la organización
+Entender dónde estás y qué debes proteger: negocio, clientes, riesgos y partes interesadas.
+
+**Ejemplo:**
+Una tienda online sabe que su información más crítica son datos de clientes y pagos.
+
+### 5) Liderazgo
+La dirección debe apoyar la seguridad, dar recursos y responsabilidades claras.
+
+**Ejemplo:**
+El jefe define política de seguridad y nombra responsables de cumplirla.
+
+### 6) Planificación
+Definir objetivos, riesgos, oportunidades y plan de tratamiento.
+
+**Ejemplo:**
+Riesgo alto de phishing → objetivo: reducir incidentes con MFA y capacitación.
+
+### 7) Apoyo
+Todo lo necesario para que funcione: personas, formación, comunicación y documentación.
+
+**Ejemplo:**
+Capacitar al personal y mantener procedimientos escritos actualizados.
+
+### 8) Operación
+Ejecutar el plan en el día a día.
+
+**Ejemplo:**
+Aplicar revisiones de acceso, backups, gestión de cambios y respuesta a incidentes.
+
+### 9) Evaluación del desempeño
+Medir si está funcionando: indicadores, auditorías internas y revisión por dirección.
+
+**Ejemplo:**
+Comparar cuántos incidentes hubo este trimestre vs. el anterior.
+
+### 10) Mejora
+Corregir fallos y mejorar continuamente.
+
+**Ejemplo:**
+Tras un incidente, actualizar controles para que no vuelva a pasar.
+
+## ¿Por qué esto ayuda tanto a una empresa?
+- **Mejora reputación:** más confianza de clientes y socios.
+- **Cumplimiento normativo:** ayuda con GDPR y otros requisitos.
+- **Eficiencia operativa:** roles claros, menos errores, procesos ordenados.
+- **Ventaja competitiva:** abre puertas en licitaciones y mercados regulados.
+- **Crecimiento continuo:** el SGSI mejora con el tiempo y aprende de incidentes.
+
+## Mini ejemplo completo
+Una empresa pequeña usa PDCA:
+- **Plan:** detecta riesgo de robo de cuentas.
+- **Do:** activa MFA y políticas de contraseñas.
+- **Check:** mide si bajan accesos sospechosos.
+- **Act:** refuerza formación si siguen cayendo usuarios en phishing.
+
+## Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Qué significa PDCA en ISO 27001?
+- **Respuesta:** Es un ciclo de mejora continua: planificar, hacer, verificar y actuar.
+
+- **Pregunta:** ¿Qué cláusula se enfoca en medir resultados del SGSI?
+- **Respuesta:** La cláusula 9 (Evaluación del desempeño).
+
+- **Pregunta:** ¿Por qué ISO 27001 puede ser ventaja competitiva?
+- **Respuesta:** Porque demuestra madurez en seguridad y facilita entrar a contratos y mercados más exigentes.

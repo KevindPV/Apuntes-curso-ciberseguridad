@@ -168,3 +168,18 @@
 
 - **Pregunta:** ¿Por qué ISO 27001 mejora la empleabilidad en ciberseguridad?
 - **Respuesta:** Porque es un estándar ampliamente reconocido en roles de GRC, auditoría, riesgos, compliance y operación de seguridad.
+
+
+## Sección 6 - Video 34 (Estructura de la ISO 27001)
+
+- **Pregunta:** ¿Qué es PDCA en palabras simples?
+- **Respuesta:** Es una rueda de mejora continua: planear, hacer, revisar y mejorar.
+
+- **Pregunta:** ¿Qué se hace en la fase Check?
+- **Respuesta:** Se mide y revisa si los controles realmente están funcionando.
+
+- **Pregunta:** ¿Qué cláusula de ISO 27001:2022 habla de mejora continua?
+- **Respuesta:** La cláusula 10 (Mejora).
+
+- **Pregunta:** ¿Para qué sirve la cláusula 4 (Contexto)?
+- **Respuesta:** Para entender el entorno del negocio, qué información es crítica y qué riesgos hay.
