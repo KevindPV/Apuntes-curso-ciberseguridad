@@ -1,8 +1,9 @@
 # Seccion 5
 
-## Índice de videos de la sección
-- **Video 24:** Implantar la seguridad para protegernos de los ataques
+## Contenido de la seccion
+- [**Video 24:** Implantar la seguridad para protegernos de los ataques](#video-24)
 
+<a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
 
 ### Resumen breve
