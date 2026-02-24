@@ -132,3 +132,18 @@
 
 - **Pregunta:** Menciona dos ejemplos de gadgets y su utilidad.
 - **Respuesta:** Autenticador físico para reforzar MFA y analizador de red para detectar tráfico anómalo/dispositivos no autorizados.
+
+
+## Sección 5 - Video 3 (Gestión de incidentes)
+
+- **Pregunta:** ¿Cuáles son las fases típicas de gestión de incidentes?
+- **Respuesta:** Detección e identificación, clasificación y priorización, contención y erradicación, investigación y análisis, recuperación, comunicación, documentación y aprendizaje.
+
+- **Pregunta:** ¿Qué objetivo tiene la fase de contención?
+- **Respuesta:** Limitar el impacto y evitar que el incidente se propague a más sistemas.
+
+- **Pregunta:** ¿Qué se valida en la fase de recuperación?
+- **Respuesta:** Que los servicios vuelvan a operar y que la integridad de datos/sistemas sea correcta.
+
+- **Pregunta:** ¿Por qué documentar un incidente es importante?
+- **Respuesta:** Porque permite mejorar controles, actualizar procedimientos y reducir probabilidad de recurrencia.

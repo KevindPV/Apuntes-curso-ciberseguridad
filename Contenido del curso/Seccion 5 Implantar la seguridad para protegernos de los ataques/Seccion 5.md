@@ -7,6 +7,7 @@
 - [**Video 27:** Seguridad en dispositivos IoT](#video-27)
 - [**Video 29:** Estándares, reglamentos y buenas prácticas](#video-29)
 - [**Video 30:** Gestión de riesgos](#video-30)
+- [**Video 3:** Gestión de incidentes](#video-3)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -658,3 +659,86 @@ En esta clase también se presenta un documento práctico con gadgets y herramie
 
 - **Pregunta:** Menciona cuatro estrategias de respuesta al riesgo.
 - **Respuesta:** Mitigar, transferir, aceptar y evitar.
+
+
+<a id="video-3"></a>
+## 3. Gestión de incidentes
+
+### Resumen breve
+La gestión de incidentes es el proceso que permite responder de forma ordenada ante eventos de seguridad para reducir impacto, recuperar operación y aprender para evitar recurrencias.
+
+### Fases de la gestión de incidentes
+
+1. **Detección e identificación**
+   - Monitorear sistemas, red y logs para detectar señales de incidente.
+   - La detección temprana reduce daño y tiempo de exposición.
+
+   **Ejemplo simple:**
+   Un SIEM detecta múltiples intentos de login fallido desde un país inusual y levanta una alerta.
+
+2. **Clasificación y priorización**
+   - Clasificar tipo de incidente (phishing, malware, fuga de datos, DDoS, etc.).
+   - Asignar prioridad según impacto al negocio y urgencia.
+
+   **Ejemplo simple:**
+   Un equipo infectado sin datos críticos puede ser prioridad media, mientras un servidor de pagos comprometido es prioridad alta.
+
+3. **Contención y erradicación**
+   - Limitar propagación del incidente.
+   - Eliminar causa raíz (malware, credenciales comprometidas, vulnerabilidad sin parche).
+
+   **Ejemplo simple:**
+   Aislar un endpoint con ransomware, revocar credenciales robadas y aplicar parche de seguridad.
+
+4. **Investigación y análisis**
+   - Entender qué pasó, cómo entraron, qué se afectó y cuánto tiempo duró.
+   - Recopilar evidencias para forense y mejora de controles.
+
+   **Ejemplo simple:**
+   Analizar logs de VPN, EDR y firewall para reconstruir la línea de tiempo del ataque.
+
+5. **Recuperación**
+   - Restaurar servicios y validar integridad de sistemas/datos.
+   - Volver a producción de forma controlada.
+
+   **Ejemplo simple:**
+   Restaurar desde backup verificado y monitorear 48h para asegurar que no hay reinfección.
+
+6. **Comunicación**
+   - Informar a equipos internos, dirección, clientes o regulador según corresponda.
+   - La transparencia adecuada reduce impacto reputacional.
+
+   **Ejemplo simple:**
+   Enviar informe ejecutivo a dirección y comunicado técnico al equipo TI con acciones y estado.
+
+7. **Documentación y aprendizaje**
+   - Registrar decisiones, tiempos, evidencias y lecciones aprendidas.
+   - Actualizar procedimientos, playbooks y controles preventivos.
+
+   **Ejemplo simple:**
+   Tras incidente de phishing, se agrega MFA obligatorio y simulaciones periódicas de concienciación.
+
+### Mini flujo práctico
+1. Alerta detectada por SIEM/EDR.
+2. Analista valida y clasifica severidad.
+3. Se contiene el incidente en activos afectados.
+4. Se erradica la causa raíz.
+5. Se recuperan servicios críticos.
+6. Se comunica estado a stakeholders.
+7. Se documenta y mejora el plan de respuesta.
+
+### Errores comunes
+- No tener criterios claros de severidad.
+- Contener sin preservar evidencias.
+- Recuperar rápido sin validar integridad.
+- Cerrar incidente sin lecciones aprendidas.
+
+### Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Qué diferencia hay entre contención y erradicación?
+- **Respuesta:** Contención limita el daño inmediato; erradicación elimina la causa raíz del incidente.
+
+- **Pregunta:** ¿Por qué la comunicación es crítica en incidentes?
+- **Respuesta:** Porque coordina acciones, reduce incertidumbre y protege la confianza de clientes y dirección.
+
+- **Pregunta:** ¿Qué entregable deja la fase de documentación y aprendizaje?
+- **Respuesta:** Un informe post-incidente con causa raíz, impacto, acciones ejecutadas y mejoras al plan de respuesta.
