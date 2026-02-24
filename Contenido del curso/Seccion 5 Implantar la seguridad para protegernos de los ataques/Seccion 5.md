@@ -5,6 +5,7 @@
 - [**Video 25:** Practicamos con el firewall Portmaster](#video-25)
 - [**Video 26:** Seguridad en la nube](#video-26)
 - [**Video 27:** Seguridad en dispositivos IoT](#video-27)
+- [**Video 28:** Tipos de controles de seguridad](#video-28)
 
 <a id="video-24"></a>
 ## Implantar la seguridad para protegernos de los ataques
@@ -378,3 +379,59 @@ La **segmentación de red** consiste en separar dispositivos por zonas para que 
 
 - **Pregunta:** Da un ejemplo realista de riesgo IoT.
 - **Respuesta:** Una cámara vulnerable se compromete y se integra en una botnet, permitiendo ataques externos o movimiento lateral dentro de la red interna.
+
+
+<a id="video-28"></a>
+## 28. Tipos de controles de seguridad
+
+### Resumen breve
+En este video se presenta un recurso con gadgets y soluciones de ciberseguridad para entender qué controles existen en el mercado y cómo pueden aplicarse para mejorar la seguridad personal y empresarial.
+
+### ¿Qué son los controles de seguridad?
+Son medidas técnicas, físicas y administrativas que reducen riesgos, previenen incidentes y mejoran la capacidad de detección y respuesta.
+
+### Tipos de controles (explicación simple)
+1. **Controles preventivos:** evitan que el ataque ocurra.
+   - Ejemplos: MFA, firewall, políticas de contraseñas, segmentación de red.
+2. **Controles detectivos:** identifican actividad sospechosa.
+   - Ejemplos: SIEM, IDS, monitoreo de logs, alertas de comportamiento anómalo.
+3. **Controles correctivos:** ayudan a recuperar o contener tras un incidente.
+   - Ejemplos: EDR aislando endpoint, restauración de backups, playbooks SOAR.
+
+### Gadgets y herramientas mencionadas (valor práctico)
+- **Dispositivos de autenticación:** llaves físicas/FIDO para reforzar acceso.
+- **Routers y firewalls:** control del tráfico y segmentación.
+- **Protectores de privacidad:** herramientas para reducir rastreo y exposición de datos.
+- **Comparativas de soluciones:** análisis entre productos para elegir según necesidad y contexto.
+
+### ¿Por qué este recurso es importante para estudiantes?
+- Te familiariza con términos reales del mercado.
+- Te prepara para conversaciones técnicas en entrevistas y trabajo.
+- Te ayuda a relacionar teoría con soluciones concretas usadas por empresas.
+
+### Ejemplos específicos y claros
+- **Ejemplo 1 (acceso):** empresa habilita llaves de autenticación física para cuentas admin; baja riesgo de phishing.
+- **Ejemplo 2 (red):** pyme implementa firewall + VLAN para separar administración, usuarios e IoT.
+- **Ejemplo 3 (detección):** equipo SOC usa SIEM para correlacionar eventos y priorizar alertas críticas.
+
+### Cómo elegir un control de seguridad (mini guía)
+1. Identificar activo crítico (datos, cuentas, infraestructura).
+2. Medir riesgo principal (phishing, ransomware, fuga de datos, etc.).
+3. Elegir control que reduzca ese riesgo con costo razonable.
+4. Probar, documentar y revisar periódicamente su efectividad.
+
+### Errores comunes
+- Comprar herramientas sin estrategia de riesgo.
+- Elegir por moda y no por necesidad del entorno.
+- Implementar controles sin capacitación del equipo.
+- No medir resultados ni ajustar configuraciones.
+
+### Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Qué diferencia hay entre un control preventivo y uno detectivo?
+- **Respuesta:** El preventivo intenta impedir el incidente; el detectivo lo identifica cuando ocurre o está por ocurrir.
+
+- **Pregunta:** ¿Por qué es útil comparar herramientas de ciberseguridad antes de comprar?
+- **Respuesta:** Porque cada solución cubre riesgos distintos, tiene costos/licencias diferentes y puede integrarse mejor o peor con el entorno actual.
+
+- **Pregunta:** Menciona tres controles para una pyme con presupuesto limitado.
+- **Respuesta:** MFA en cuentas críticas, firewall bien configurado y política de copias de seguridad verificadas.

@@ -93,3 +93,14 @@
 
 - **Pregunta:** Da un ejemplo concreto de segmentación en una casa con IoT.
 - **Respuesta:** Crear una red separada para cámaras/bombillas/TV y bloquear que esa red acceda a laptops o móviles personales.
+
+## Sección 5 - Video 28 (Tipos de controles de seguridad)
+
+- **Pregunta:** ¿Qué son los controles preventivos?
+- **Respuesta:** Son medidas que buscan evitar que un incidente ocurra, por ejemplo MFA, firewall o segmentación.
+
+- **Pregunta:** ¿Qué diferencia hay entre control detectivo y correctivo?
+- **Respuesta:** El detectivo identifica incidentes o anomalías; el correctivo ayuda a contener y recuperar después del incidente.
+
+- **Pregunta:** ¿Por qué es clave comparar soluciones de ciberseguridad?
+- **Respuesta:** Para elegir herramientas alineadas al riesgo real, presupuesto e integración técnica del entorno.
