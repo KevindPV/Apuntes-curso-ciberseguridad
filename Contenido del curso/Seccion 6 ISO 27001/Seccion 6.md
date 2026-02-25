@@ -3,6 +3,7 @@
 ## Contenido del curso
 - [**Video 33:** Introducción a la ISO 27001](#video-33)
 - [**Video 34:** Estructura de la ISO 27001](#video-34)
+- [**Video 36:** El Futuro de la ISO 27001](#video-36)
 
 <a id="video-33"></a>
 ## Video 33: Introducción a la ISO 27001
@@ -378,3 +379,94 @@ Empresa pequeña de e-commerce:
 
 - **Pregunta:** ¿Por qué ISO 27001 puede ser ventaja competitiva?
 - **Respuesta:** Porque demuestra madurez en seguridad y facilita entrar a contratos y mercados más exigentes.
+
+
+<a id="video-36"></a>
+## Video 36: El Futuro de la ISO 27001
+
+### Resumen breve (explicado como si fueras un niño)
+Imagina que la información de una empresa es como un tesoro. ISO 27001 es el mapa y las reglas para cuidar ese tesoro hoy… y también en el futuro, cuando haya más ataques, más tecnología y más reglas que cumplir.
+
+### ¿Por qué ISO 27001 será cada vez más importante?
+- Porque protege la **confidencialidad** de datos sensibles (salud, dinero, clientes).
+- Porque ayuda a manejar **riesgos operacionales** antes de que se vuelvan problemas grandes.
+- Porque cada vez más empresas y contratos pedirán evidencia de seguridad real.
+
+**Ejemplo niño:**
+Si quieres entrar a un club importante, te piden credencial. En negocios, muchas veces esa “credencial” es demostrar un SGSI sólido alineado a ISO 27001.
+
+## ISO/IEC 27001 en la práctica (por sectores)
+
+### 1) Sanidad
+- Se protege información médica de pacientes.
+- El foco principal es confidencialidad y acceso controlado.
+
+**Ejemplo sencillo:**
+Solo médicos autorizados pueden ver historial clínico, y todo acceso queda registrado.
+
+### 2) Finanzas
+- Se gestionan riesgos operacionales y fraude.
+- Se exige cumplimiento regulatorio estricto.
+
+**Ejemplo sencillo:**
+Un banco aplica revisiones de acceso privilegiado, monitoreo de transacciones y controles de auditoría.
+
+### 3) Industria
+- Se protege el acceso a sistemas de producción.
+- Se reduce el riesgo de paradas por ataques o errores.
+
+**Ejemplo sencillo:**
+Una planta separa red de oficina y red de máquinas para evitar que un malware de oficina afecte producción.
+
+### 4) Startups tecnológicas
+- ISO 27001 da confianza frente a clientes grandes.
+- Funciona como ventaja competitiva en ventas B2B.
+
+**Ejemplo sencillo:**
+Una startup SaaS con prácticas alineadas a ISO 27001 cierra más fácil un contrato con una corporación exigente.
+
+## Buenas prácticas observadas
+- **Implicación activa de la dirección** (sin apoyo de arriba, el SGSI se frena).
+- **Documentación clara y accesible** (útil, no burocrática).
+- **Formación continua del personal** (las personas son parte clave de la defensa).
+- **Integración con otras normas** (ej. ISO 9001, ISO 22301) para no trabajar “en islas”.
+
+**Ejemplo sencillo:**
+La dirección revisa riesgos cada mes y el equipo recibe mini formaciones anti-phishing cada trimestre.
+
+## Errores comunes que hay que evitar
+- Documentación excesiva que nadie usa.
+- No dar seguimiento a acciones correctivas.
+- Ignorar la cultura de seguridad interna.
+
+**Ejemplo sencillo:**
+Tener un procedimiento “bonito” en PDF pero que nadie aplica en incidentes reales.
+
+## Indicadores típicos de madurez (cómo saber si vas bien)
+- **% de controles implementados**.
+- **Número de incidentes gestionados** (y tiempo de respuesta).
+- **Nivel de cumplimiento en auditorías internas**.
+
+**Ejemplo sencillo:**
+Si sube el porcentaje de controles y bajan incidentes repetidos, el SGSI está madurando bien.
+
+## Valor agregado (mirada al futuro)
+1. **ISO 27001 + ciberseguridad moderna:** la actualización 2022 acerca aún más la norma a amenazas actuales.
+2. **Más demanda laboral:** saber ISO 27001 te ayuda en GRC, auditoría, consultoría, gestión de riesgos y seguridad operativa.
+3. **Más mercado para empresas certificadas:** mejor acceso a licitaciones y clientes internacionales.
+
+## Mini historia para entenderlo fácil
+Una empresa pequeña quería vender a hospitales y bancos.
+- Al inicio, no tenía procesos claros de seguridad.
+- Implementó SGSI con ISO 27001, entrenó al equipo y midió indicadores.
+- Resultado: menos incidentes, más confianza de clientes y nuevos contratos.
+
+### Preguntas de entrevista (con respuestas)
+- **Pregunta:** ¿Por qué ISO 27001 tiene futuro en el mercado?
+- **Respuesta:** Porque la seguridad y el cumplimiento son cada vez más exigidos por clientes, reguladores y socios.
+
+- **Pregunta:** ¿Qué papel tiene la dirección en un SGSI exitoso?
+- **Respuesta:** Es clave: asigna recursos, define prioridades y sostiene la mejora continua.
+
+- **Pregunta:** Menciona tres señales de madurez en ISO 27001.
+- **Respuesta:** Mayor porcentaje de controles implementados, mejor resultado en auditorías y gestión más efectiva de incidentes.

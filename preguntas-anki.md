@@ -195,3 +195,18 @@
 
 - **Pregunta:** ¿Para qué sirve la cláusula 4 (Contexto)?
 - **Respuesta:** Para entender el entorno del negocio, qué información es crítica y qué riesgos hay.
+
+
+## Sección 6 - Video 36 (El Futuro de la ISO 27001)
+
+- **Pregunta:** ¿Por qué ISO 27001 será cada vez más importante para empresas?
+- **Respuesta:** Porque mejora confianza, facilita cumplimiento y se vuelve requisito en más contratos y sectores.
+
+- **Pregunta:** ¿Qué buenas prácticas sostienen un SGSI saludable?
+- **Respuesta:** Liderazgo activo, documentación útil, formación continua e integración con otros sistemas de gestión.
+
+- **Pregunta:** ¿Qué error común puede arruinar una implementación ISO 27001?
+- **Respuesta:** Crear mucha documentación sin uso real y sin seguimiento de acciones correctivas.
+
+- **Pregunta:** ¿Qué indicadores simples muestran madurez en ISO 27001?
+- **Respuesta:** % de controles implementados, incidentes gestionados y nivel de cumplimiento en auditorías internas.
