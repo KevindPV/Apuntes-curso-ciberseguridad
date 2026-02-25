@@ -295,3 +295,18 @@
 
 - **Pregunta:** ¿Qué error común reduce el valor de una auditoría de seguridad?
 - **Respuesta:** Hacerla solo para “cumplir” sin ejecutar acciones correctivas ni mejora continua.
+
+
+## Sección 8 - Video 43 (Controles de seguridad en ISO 27001)
+
+- **Pregunta:** ¿Cuál es la idea central al aplicar controles en ISO 27001?
+- **Respuesta:** Seleccionar controles según riesgos y contexto, no aplicar todos de forma indiscriminada.
+
+- **Pregunta:** ¿Qué documento justifica qué controles se aplican en una organización?
+- **Respuesta:** La Declaración de Aplicabilidad (SoA).
+
+- **Pregunta:** ¿Cómo ayudan las 4 categorías del Anexo A en la implementación?
+- **Respuesta:** Ordenan los controles en organizacionales, personas, físicos y tecnológicos para facilitar gestión y seguimiento.
+
+- **Pregunta:** ¿Qué aporta el ciclo PDCA al control de seguridad?
+- **Respuesta:** Mejora continua: planear, implementar, verificar y ajustar controles según resultados.

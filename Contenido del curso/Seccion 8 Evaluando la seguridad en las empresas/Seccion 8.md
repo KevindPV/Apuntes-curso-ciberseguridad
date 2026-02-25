@@ -2,6 +2,7 @@
 
 ## Contenido del curso
 - [**Video 42:** Auditorías de seguridad](#video-42)
+- [**Video 43:** Controles de seguridad en ISO 27001](#video-43)
 
 <a id="video-42"></a>
 ## Video 42: Auditorías de seguridad
@@ -75,3 +76,81 @@ En esta lección se explica cómo las auditorías de seguridad permiten evaluar 
 
 - **Pregunta:** ¿Qué documento demuestra qué controles aplican y por qué?
 - **Respuesta:** La Declaración de Aplicabilidad (SoA).
+
+
+<a id="video-43"></a>
+## Video 43: Controles de seguridad en ISO 27001
+
+### Resumen breve
+En este video verás cómo ISO 27001 te ayuda a elegir controles de seguridad de forma inteligente, según el riesgo real de tu empresa. La idea clave es simple: no se trata de aplicar todos los controles, sino los que realmente reducen riesgos y tienen sentido para el negocio.
+
+### Conceptos clave
+- **ISO 27001:** marco para implementar y mejorar un SGSI con enfoque basado en riesgos.
+- **Anexo A:** lista de controles de referencia para tratar riesgos identificados.
+- **Selección basada en contexto:** cada organización elige controles según su tamaño, sector, activos y amenazas.
+- **SoA (Declaración de Aplicabilidad):** documento que justifica qué controles se aplican y por qué.
+
+### Ideas principales
+- ISO 27001 define un marco para implementar controles efectivos según necesidades reales.
+- El Anexo A reúne controles recomendados para tratar riesgos concretos.
+
+### Ideas secundarias
+- Se deben elegir solo controles relevantes y justificar su inclusión/exclusión.
+- Los controles se agrupan en cuatro categorías para facilitar implementación y seguimiento.
+
+### Categorías de controles (Anexo A 2022)
+1. **Organizacionales:** políticas, roles, gestión de terceros, continuidad.
+2. **De personas:** formación, responsabilidades y concienciación.
+3. **Físicos:** protección de instalaciones y acceso físico.
+4. **Tecnológicos:** control de acceso lógico, cifrado, monitoreo, hardening.
+
+### PDCA aplicado a controles de seguridad
+- **Plan:** analizar riesgos y definir controles.
+- **Do:** implementar controles y procesos.
+- **Check:** medir si los controles funcionan (KPIs, auditorías, hallazgos).
+- **Act:** corregir, mejorar y actualizar controles.
+
+Este ciclo evita controles “estáticos” y mantiene el SGSI vivo ante nuevas amenazas.
+
+### Ejemplo práctico (sencillo y concreto)
+**Escenario:** empresa SaaS con riesgo de acceso no autorizado a datos de clientes.
+
+- **Plan:** riesgo alto por cuentas privilegiadas sin MFA.
+- **Do:** implementar MFA, revisión de privilegios y alertas de login anómalo.
+- **Check:** medir intentos bloqueados, incidentes y tiempos de respuesta.
+- **Act:** ajustar políticas, reforzar capacitación y endurecer acceso remoto.
+
+**Resultado:** menos probabilidad de compromiso y mejor evidencia para auditoría.
+
+### Documentación y auditoría del SGSI
+Para que los controles aporten valor, deben quedar documentados:
+- objetivo del control,
+- riesgo que trata,
+- responsable,
+- evidencia de operación,
+- resultado de revisión.
+
+Esto facilita auditorías internas/externas y mejora la trazabilidad de decisiones.
+
+### Palabras clave
+- **ISO 27001:** norma para gestionar seguridad con enfoque basado en riesgos.
+- **Controles de seguridad:** medidas para prevenir, detectar o corregir eventos.
+- **Gestión de riesgos:** proceso para identificar, evaluar y tratar riesgos.
+- **Anexo A:** catálogo de controles de referencia para tratamiento de riesgos.
+- **Documento (SoA):** registro formal que justifica qué controles aplican.
+
+### Valor práctico
+Saber seleccionar e implementar controles correctamente permite construir una seguridad más eficiente y adaptable. Evita gastar en controles innecesarios y mejora cumplimiento, auditoría y resiliencia operativa.
+
+### Resumen de un párrafo
+En esta lección se estudian los controles de seguridad del Anexo A de ISO 27001 como base para tratar riesgos de forma estructurada. Se enfatiza que no todos los controles aplican a todas las empresas: cada organización debe seleccionar y justificar los más relevantes según su contexto. La división en controles organizacionales, de personas, físicos y tecnológicos facilita la implementación y el seguimiento. Además, el uso del ciclo PDCA y la documentación en el SGSI aseguran mejora continua, mayor trazabilidad y mejor preparación para auditorías.
+
+### Preguntas de entrevista
+- **Pregunta:** ¿ISO 27001 obliga a implementar todos los controles del Anexo A?
+- **Respuesta:** No. Se deben seleccionar los controles relevantes y justificar su aplicación en la SoA según el análisis de riesgos.
+
+- **Pregunta:** ¿Cómo se relaciona PDCA con los controles de seguridad?
+- **Respuesta:** PDCA permite planear controles, implementarlos, medir su eficacia y mejorarlos continuamente.
+
+- **Pregunta:** ¿Por qué documentar controles en el SGSI es tan importante?
+- **Respuesta:** Porque permite demostrar eficacia, facilitar auditorías y sostener decisiones de mejora continua.
