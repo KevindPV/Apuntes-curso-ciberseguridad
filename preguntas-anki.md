@@ -236,3 +236,18 @@
 
 - **Pregunta:** Menciona dos SIEM líderes y un criterio práctico para compararlos.
 - **Respuesta:** Splunk y Microsoft Sentinel; se comparan por integración con el ecosistema actual y costo por ingesta/retención.
+
+
+## Sección 7 - Video 39 (Soluciones de EDR y XDR)
+
+- **Pregunta:** ¿Qué diferencia central existe entre EDR y XDR?
+- **Respuesta:** EDR protege y responde en endpoints; XDR correlaciona y responde en endpoint, red, identidad, correo y nube.
+
+- **Pregunta:** ¿Cómo se complementan SIEM y XDR en un SOC?
+- **Respuesta:** SIEM centraliza y correlaciona eventos; XDR ejecuta contención rápida y acciones automáticas sobre la amenaza.
+
+- **Pregunta:** ¿Qué acción de respuesta automática puede hacer un EDR/XDR?
+- **Respuesta:** Aislar un equipo comprometido, matar procesos maliciosos y bloquear IOC (hash/IP/dominio).
+
+- **Pregunta:** ¿Qué debes revisar antes de elegir una plataforma EDR/XDR?
+- **Respuesta:** Cobertura de activos, integraciones, calidad de detección, nivel de automatización y costo total operativo.

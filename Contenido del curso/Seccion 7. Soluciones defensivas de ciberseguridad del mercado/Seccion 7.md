@@ -3,6 +3,7 @@
 ## Contenido del curso
 - [**Video 37:** Introducción a las soluciones de ciberseguridad](#video-37)
 - [**Video 38:** Soluciones de SIEM](#video-38)
+- [**Video 39:** Soluciones de EDR y XDR](#video-39)
 
 <a id="video-37"></a>
 ## Video 37: Introducción a las soluciones de ciberseguridad
@@ -156,3 +157,80 @@ Con esa correlación, el SOC sube la severidad, bloquea sesión, fuerza cambio d
 
 - **Pregunta:** ¿Qué revisarías antes de seleccionar un SIEM?
 - **Respuesta:** Casos de uso, integraciones, volumen de logs, costo total y capacidad operativa del equipo.
+
+
+<a id="video-39"></a>
+## Video 39: Soluciones de EDR y XDR
+
+### Resumen breve
+En este video veremos cómo **EDR** y **XDR** ayudan a detectar y frenar ataques en tiempo real. Si SIEM es el “centro de control” de eventos, EDR/XDR son la “respuesta activa” para contener amenazas en endpoints y en varios dominios (red, correo, identidad y nube).
+
+### Conceptos clave
+- **EDR (Endpoint Detection and Response):** protege equipos finales (laptops, servidores, estaciones) con telemetría, detección y respuesta.
+- **XDR (Extended Detection and Response):** amplía EDR y correlaciona señales de endpoint + red + identidad + correo + nube.
+- **Detección en tiempo real:** identifica comportamientos anómalos (ejecución sospechosa, robo de credenciales, C2).
+- **Respuesta automatizada:** aislar host, matar proceso malicioso, bloquear hash/IP/dominio y abrir caso en SOC.
+
+### ¿Cómo se relaciona con SIEM?
+- **SIEM** centraliza logs y correlaciona eventos para visibilidad global.
+- **EDR/XDR** ejecuta acciones de contención rápida en los activos afectados.
+- En equipos maduros, se usan juntos: SIEM para contexto y XDR/EDR para respuesta táctica.
+
+### Soluciones líderes de EDR/XDR (comparativa práctica)
+> *Nota:* costos aproximados, varían por número de endpoints, módulos y retención de datos.
+
+1. **Microsoft Defender for Endpoint / Defender XDR**
+   - **Fuerte en:** integración con ecosistema Microsoft (M365, Entra, Sentinel).
+   - **Despliegue:** cloud-first, agentes en endpoints.
+   - **Costo típico:** medio (licencias por usuario/dispositivo según plan).
+
+2. **CrowdStrike Falcon (EDR/XDR)**
+   - **Fuerte en:** telemetría de endpoint y respuesta rápida con enfoque cloud.
+   - **Despliegue:** SaaS con agente ligero.
+   - **Costo típico:** medio-alto según módulos (EDR, Identity, etc.).
+
+3. **SentinelOne Singularity**
+   - **Fuerte en:** automatización de respuesta y capacidades de rollback/ransomware.
+   - **Despliegue:** cloud con agente en endpoint.
+   - **Costo típico:** medio-alto por endpoint y capacidades avanzadas.
+
+4. **Palo Alto Cortex XDR**
+   - **Fuerte en:** correlación entre endpoint, red y otros controles Palo Alto.
+   - **Despliegue:** híbrido/cloud según arquitectura.
+   - **Costo típico:** medio-alto, escala por volumen y módulos.
+
+5. **Trend Micro Vision One**
+   - **Fuerte en:** cobertura XDR en endpoint, correo y nube con gestión unificada.
+   - **Despliegue:** SaaS con integración multiplataforma.
+   - **Costo típico:** medio, variable por cobertura y tamaño de empresa.
+
+### Ejemplo práctico (fácil y concreto)
+Una persona abre un archivo malicioso por phishing:
+1. **EDR** detecta ejecución de script sospechoso en el equipo.
+2. **XDR** correlaciona que esa misma cuenta también tuvo login raro en nube.
+3. Se activa respuesta: aislamiento del endpoint, bloqueo del dominio de phishing y reseteo de credenciales.
+
+Resultado: el ataque se contiene antes de que cifre otros equipos o robe más datos.
+
+### Mini guía para elegir EDR/XDR
+1. Define qué activos quieres proteger (solo endpoint o también identidad/correo/nube).
+2. Evalúa capacidad de respuesta automática (aislar, bloquear, rollback).
+3. Verifica integración con SIEM/SOAR y herramientas actuales.
+4. Revisa cobertura multiplataforma (Windows, Linux, macOS, móviles).
+5. Calcula costo total: licencias, operación SOC, tuning y retención.
+
+### Errores comunes
+- Comprar XDR sin inventario de activos y sin casos de uso claros.
+- Activar agentes sin plan de tuning (genera falsos positivos).
+- No entrenar al SOC en playbooks de respuesta.
+- Medir solo cantidad de alertas y no impacto real reducido.
+
+### Preguntas de entrevista
+- **Pregunta:** ¿Cuál es la diferencia práctica entre EDR y XDR?
+- **Respuesta:** EDR se enfoca en endpoint; XDR amplía detección/correlación y respuesta en múltiples dominios.
+
+- **Pregunta:** ¿Por qué combinar SIEM con XDR mejora la defensa?
+- **Respuesta:** Porque SIEM aporta contexto global y XDR ejecuta contención rápida con acciones directas.
+
+- **Pregunta:** ¿Qué criterio técnico es clave al evaluar EDR/XDR?
+- **Respuesta:** Calidad de detección, automatización de respuesta, integraciones y costo operativo sostenible.
