@@ -266,3 +266,18 @@
 
 - **Pregunta:** Dame un ejemplo de logro de SOAR para CV.
 - **Respuesta:** “Automaticé respuesta a phishing y reduje MTTR de 30+ minutos a menos de 10 minutos en laboratorio”.
+
+
+## Sección 7 - Video 41 (Soluciones de NGFW)
+
+- **Pregunta:** ¿Qué aporta un NGFW frente a un firewall tradicional?
+- **Respuesta:** Control por aplicación/usuario, inspección profunda, IPS y mejor capacidad para bloquear amenazas avanzadas.
+
+- **Pregunta:** ¿Qué es DPI en el contexto de NGFW?
+- **Respuesta:** Es la inspección profunda de paquetes para analizar contenido y detectar comportamientos maliciosos.
+
+- **Pregunta:** ¿Por qué la segmentación es importante al usar NGFW?
+- **Respuesta:** Porque limita el movimiento lateral y reduce el impacto de un incidente.
+
+- **Pregunta:** ¿Cómo describirías un logro de NGFW en tu CV?
+- **Respuesta:** Con verbo de acción y métrica, por ejemplo: “Optimicé políticas NGFW y reduje tráfico malicioso en 45%”.

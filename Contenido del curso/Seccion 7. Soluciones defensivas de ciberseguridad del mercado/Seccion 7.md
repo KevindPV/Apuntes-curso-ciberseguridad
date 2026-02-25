@@ -5,6 +5,7 @@
 - [**Video 38:** Soluciones de SIEM](#video-38)
 - [**Video 39:** Soluciones de EDR y XDR](#video-39)
 - [**Video 40:** Soluciones de SOAR](#video-40)
+- [**Video 41:** Soluciones de NGFW](#video-41)
 
 <a id="video-37"></a>
 ## Video 37: Introducción a las soluciones de ciberseguridad
@@ -311,3 +312,78 @@ Aunque el foco del video es SOAR, este conocimiento te ayuda a construir mejor t
 
 - **Pregunta:** ¿Qué deberías automatizar primero en SOAR?
 - **Respuesta:** Casos repetitivos y de bajo riesgo (phishing básico, enriquecimiento IOC, bloqueo inicial y ticketing).
+
+
+<a id="video-41"></a>
+## Video 41: Soluciones de NGFW
+
+### Resumen breve
+En este video conocerás qué es un **NGFW (Next-Generation Firewall)** y por qué es clave para proteger redes modernas. Un NGFW no solo filtra puertos e IP, también inspecciona aplicaciones, usuarios y amenazas avanzadas para bloquear ataques con mayor contexto.
+
+### Conceptos clave
+- **NGFW:** firewall de nueva generación con control por aplicación, inspección profunda (DPI), prevención de intrusiones (IPS) y visibilidad avanzada.
+- **Control por aplicación:** permite reglas por tipo de app (ej. bloquear TOR, limitar redes sociales, permitir GitHub para desarrollo).
+- **Inspección TLS/SSL:** analiza tráfico cifrado para detectar malware oculto.
+- **Integración con identidad:** políticas por usuario/grupo (AD/IdP), no solo por IP.
+
+### ¿Qué problema resuelve un NGFW?
+- Reduce riesgo de malware, C2 y movimiento lateral.
+- Aplica políticas más precisas que un firewall tradicional.
+- Mejora cumplimiento al registrar y auditar tráfico crítico.
+- Permite segmentación y control de acceso entre zonas de red.
+
+### Soluciones NGFW del mercado (referencia práctica)
+1. **Palo Alto Networks NGFW**
+   - Fuerte en App-ID/User-ID, visibilidad y ecosistema de seguridad.
+2. **Fortinet FortiGate**
+   - Fuerte en rendimiento/precio e integración con Security Fabric.
+3. **Cisco Secure Firewall (Firepower)**
+   - Fuerte en entornos enterprise Cisco y políticas centralizadas.
+4. **Check Point Quantum**
+   - Fuerte en prevención avanzada y administración unificada.
+5. **Sophos Firewall**
+   - Fuerte en simplicidad operativa y buen ajuste para pymes.
+
+### Ejemplo práctico (concreto)
+Escenario: una oficina híbrida necesita controlar tráfico de usuarios remotos.
+1. Se permite solo SaaS corporativo (M365, Jira, GitHub) por grupo.
+2. Se bloquean apps de alto riesgo y categorías maliciosas.
+3. Se activa IPS + DNS filtering + inspección TLS para detectar C2.
+4. Si se detecta comportamiento anómalo, se aplica bloqueo automático.
+
+Resultado: menor exposición, menos incidentes y mayor trazabilidad para auditoría.
+
+### Palabras clave (con breve descripción)
+- **NGFW:** firewall con inspección avanzada y control por aplicación/usuario.
+- **DPI:** análisis profundo de paquetes para entender contenido y contexto.
+- **IPS:** motor que detecta y bloquea intentos de explotación en red.
+- **Segmentación:** separar redes/sistemas para limitar propagación de ataques.
+- **C2 (Command and Control):** canal usado por malware para recibir órdenes.
+- **Política basada en identidad:** regla de seguridad definida por usuario o rol.
+
+### Errores comunes
+- Activar funciones avanzadas sin tuning (muchos falsos positivos).
+- No revisar impacto de inspección TLS en rendimiento y privacidad.
+- Mantener reglas demasiado abiertas (“allow any any”).
+- No alinear reglas con procesos del negocio.
+
+### Valor profesional (CV en ciberseguridad)
+Tomando las ideas de currículum efectivo y aplicándolas a este tema:
+- Usa formato limpio y viñetas cortas para que RRHH lea rápido.
+- Incluye un perfil profesional claro (SOC/Blue Team/Redes de Seguridad).
+- Describe logros con verbos de acción y métricas.
+- Adapta tu CV a cada vacante (NGFW, SOC, NOC seguridad).
+- Resalta certificaciones relevantes (ej. NSE, PCNSA, CCNP Security, Security+).
+
+**Ejemplo de logro en CV:**
+- “Implementé políticas NGFW por aplicación y reduje en 45% el tráfico a dominios maliciosos en 3 meses”.
+
+### Preguntas de entrevista
+- **Pregunta:** ¿Qué diferencia un NGFW de un firewall tradicional?
+- **Respuesta:** El NGFW añade visibilidad por aplicación/usuario, IPS e inspección avanzada, no solo filtrado de puertos/IP.
+
+- **Pregunta:** ¿Por qué inspeccionar tráfico TLS en un NGFW?
+- **Respuesta:** Porque gran parte del tráfico malicioso viaja cifrado; sin inspección se pierde visibilidad.
+
+- **Pregunta:** ¿Qué revisarías antes de desplegar un NGFW?
+- **Respuesta:** Inventario de aplicaciones críticas, rendimiento esperado, políticas por identidad, plan de tuning y monitoreo continuo.
