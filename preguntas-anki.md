@@ -310,3 +310,15 @@
 
 - **Pregunta:** ¿Qué aporta el ciclo PDCA al control de seguridad?
 - **Respuesta:** Mejora continua: planear, implementar, verificar y ajustar controles según resultados.
+
+
+## Sección 8 - Pentesting (Tipos y fases)
+
+- **Pregunta:** ¿Qué diferencia práctica hay entre pentest de caja blanca, negra y gris?
+- **Respuesta:** Caja blanca = conocimiento total; caja negra = sin información previa; caja gris = conocimiento parcial para simular amenaza interna.
+
+- **Pregunta:** ¿Cuáles son las fases típicas de un pentest?
+- **Respuesta:** Planificación, recopilación de información, reconocimiento, explotación, persistencia, escalada de privilegios y documentación final.
+
+- **Pregunta:** ¿Por qué conviene combinar auditoría de seguridad y pentest?
+- **Respuesta:** Porque la auditoría valida controles en papel/proceso y el pentest valida su resistencia en escenarios de ataque real.

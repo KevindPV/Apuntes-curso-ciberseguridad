@@ -145,6 +145,34 @@ Saber seleccionar e implementar controles correctamente permite construir una se
 ### Resumen de un párrafo
 En esta lección se estudian los controles de seguridad del Anexo A de ISO 27001 como base para tratar riesgos de forma estructurada. Se enfatiza que no todos los controles aplican a todas las empresas: cada organización debe seleccionar y justificar los más relevantes según su contexto. La división en controles organizacionales, de personas, físicos y tecnológicos facilita la implementación y el seguimiento. Además, el uso del ciclo PDCA y la documentación en el SGSI aseguran mejora continua, mayor trazabilidad y mejor preparación para auditorías.
 
+
+
+### Tipos de pentest (según nivel de conocimiento)
+- **Caja blanca:** el pentester conoce arquitectura, credenciales y documentación interna.
+  - *Útil para:* revisar en profundidad controles técnicos y lógica de seguridad.
+  - *Ejemplo:* validar seguridad de una API con acceso al código y diagramas.
+- **Caja negra:** el pentester parte como atacante externo, sin información previa.
+  - *Útil para:* medir exposición real hacia Internet.
+  - *Ejemplo:* simular ataque a portal público sin credenciales internas.
+- **Caja gris:** el pentester recibe información parcial (por ejemplo, una cuenta de usuario estándar).
+  - *Útil para:* simular amenazas internas o cuentas comprometidas.
+  - *Ejemplo:* evaluar qué puede hacer un usuario con permisos limitados.
+
+### Fases de un pentest (paso a paso)
+1. **Planificación:** definir alcance, reglas de juego, autorizaciones y ventanas de prueba.
+2. **Recopilación de información:** reunir datos técnicos de activos, dominios, tecnologías y superficie de ataque.
+3. **Fase de reconocimiento:** mapear servicios y rutas de ataque probables.
+4. **Explotación:** validar vulnerabilidades de forma controlada para demostrar impacto real.
+5. **Persistencia:** comprobar si un atacante podría mantener acceso en el tiempo.
+6. **Escalada de privilegios:** evaluar si es posible pasar de usuario básico a privilegios altos.
+7. **Documentación final:** entregar hallazgos, evidencias, criticidad y plan de remediación.
+
+### Relación práctica entre auditoría y pentest
+- La **auditoría** verifica si los controles existen y se aplican correctamente.
+- El **pentest** demuestra si esos controles realmente resisten un ataque real.
+- Combinados, entregan una visión más completa del riesgo y de la madurez de seguridad.
+
+
 ### Preguntas de entrevista
 - **Pregunta:** ¿ISO 27001 obliga a implementar todos los controles del Anexo A?
 - **Respuesta:** No. Se deben seleccionar los controles relevantes y justificar su aplicación en la SoA según el análisis de riesgos.
