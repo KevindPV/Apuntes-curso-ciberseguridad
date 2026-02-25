@@ -281,3 +281,17 @@
 
 - **Pregunta:** ¿Cómo describirías un logro de NGFW en tu CV?
 - **Respuesta:** Con verbo de acción y métrica, por ejemplo: “Optimicé políticas NGFW y reduje tráfico malicioso en 45%”.
+
+## Sección 8 - Video 42 (Auditorías de seguridad)
+
+- **Pregunta:** ¿Cuál es el objetivo principal de una auditoría de seguridad?
+- **Respuesta:** Verificar si los controles funcionan, detectar brechas y priorizar mejoras basadas en riesgo.
+
+- **Pregunta:** ¿Cómo se relaciona una auditoría con el Anexo A de ISO 27001?
+- **Respuesta:** La auditoría valida si los controles seleccionados del Anexo A son adecuados y efectivos para el contexto de la empresa.
+
+- **Pregunta:** ¿Qué categorías de controles define el Anexo A 2022?
+- **Respuesta:** Organizacionales, de personas, físicos y tecnológicos.
+
+- **Pregunta:** ¿Qué error común reduce el valor de una auditoría de seguridad?
+- **Respuesta:** Hacerla solo para “cumplir” sin ejecutar acciones correctivas ni mejora continua.
