@@ -251,3 +251,18 @@
 
 - **Pregunta:** ¿Qué debes revisar antes de elegir una plataforma EDR/XDR?
 - **Respuesta:** Cobertura de activos, integraciones, calidad de detección, nivel de automatización y costo total operativo.
+
+
+## Sección 7 - Video 40 (Soluciones de SOAR)
+
+- **Pregunta:** ¿Qué hace una plataforma SOAR en términos simples?
+- **Respuesta:** Conecta herramientas de seguridad y automatiza respuestas para reducir tiempo y esfuerzo manual.
+
+- **Pregunta:** ¿Qué diferencia hay entre SIEM y SOAR?
+- **Respuesta:** SIEM detecta y correlaciona; SOAR ejecuta acciones automáticas con playbooks.
+
+- **Pregunta:** ¿Qué es un playbook en SOAR?
+- **Respuesta:** Es un flujo paso a paso que define cómo responder a un incidente específico.
+
+- **Pregunta:** Dame un ejemplo de logro de SOAR para CV.
+- **Respuesta:** “Automaticé respuesta a phishing y reduje MTTR de 30+ minutos a menos de 10 minutos en laboratorio”.

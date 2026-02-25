@@ -4,6 +4,7 @@
 - [**Video 37:** Introducción a las soluciones de ciberseguridad](#video-37)
 - [**Video 38:** Soluciones de SIEM](#video-38)
 - [**Video 39:** Soluciones de EDR y XDR](#video-39)
+- [**Video 40:** Soluciones de SOAR](#video-40)
 
 <a id="video-37"></a>
 ## Video 37: Introducción a las soluciones de ciberseguridad
@@ -234,3 +235,79 @@ Resultado: el ataque se contiene antes de que cifre otros equipos o robe más da
 
 - **Pregunta:** ¿Qué criterio técnico es clave al evaluar EDR/XDR?
 - **Respuesta:** Calidad de detección, automatización de respuesta, integraciones y costo operativo sostenible.
+
+
+<a id="video-40"></a>
+## Video 40: Soluciones de SOAR
+
+### Resumen breve
+En este video aprenderás qué es **SOAR** y por qué ayuda a los equipos SOC a responder incidentes más rápido y con menos trabajo manual. Además, conectamos este tema con tu crecimiento profesional: saber operar SIEM+EDR+SOAR también mejora cómo te presentas en tu CV de ciberseguridad.
+
+### Conceptos clave
+- **SOAR (Security Orchestration, Automation and Response):** plataforma que orquesta herramientas de seguridad, automatiza tareas repetitivas y guía la respuesta a incidentes.
+- **Orquestación:** conectar SIEM, EDR, firewall, correo, IAM y ticketing para ejecutar acciones coordinadas.
+- **Automatización:** ejecutar pasos automáticos (enriquecer IOC, bloquear IP, abrir ticket, notificar equipo).
+- **Playbooks:** flujos de respuesta predefinidos para incidentes comunes (phishing, malware, cuenta comprometida).
+
+### ¿Por qué SOAR importa tanto?
+- Reduce tiempos de respuesta (MTTR).
+- Disminuye fatiga por alertas repetitivas.
+- Mejora consistencia: todos siguen el mismo procedimiento.
+- Permite que analistas junior resuelvan más casos con guía estructurada.
+
+### Soluciones SOAR del mercado (visión práctica)
+> *Nota:* costos y capacidades cambian según conectores, casos de uso y volumen de alertas.
+
+1. **Cortex XSOAR (Palo Alto)**
+   - Fuerte en playbooks avanzados y ecosistema amplio de integraciones.
+2. **Splunk SOAR (Phantom)**
+   - Fuerte en integración con entorno Splunk/SIEM y automatización SOC.
+3. **IBM SOAR (Resilient)**
+   - Fuerte en gestión formal de incidentes y trazabilidad empresarial.
+4. **Microsoft Sentinel + Logic Apps (enfoque SOAR)**
+   - Fuerte en automatización cloud para organizaciones Microsoft.
+5. **Swimlane**
+   - Fuerte en low-code y orquestación flexible para equipos SOC.
+
+### Ejemplo práctico (simple)
+Escenario: llega un correo de phishing con enlace malicioso.
+1. SIEM genera alerta por URL sospechosa.
+2. SOAR ejecuta playbook: consulta reputación de dominio + extrae IOC.
+3. Si riesgo alto: bloquea dominio en proxy/firewall, busca el correo en buzones y lo pone en cuarentena.
+4. Abre ticket, notifica al SOC y documenta evidencia automáticamente.
+
+Resultado: de 30-40 minutos manuales a 2-5 minutos automatizados.
+
+### Palabras clave (con breve descripción)
+- **SOAR:** automatiza y coordina respuesta a incidentes entre varias herramientas.
+- **Playbook:** receta paso a paso para responder un tipo de incidente.
+- **Orquestación:** integración de sistemas de seguridad para actuar en cadena.
+- **Automatización:** ejecución automática de tareas repetitivas del SOC.
+- **MTTR:** tiempo promedio que tardas en contener/resolver un incidente.
+- **IOC (Indicator of Compromise):** evidencia técnica de posible compromiso (hash, IP, dominio, URL, etc.).
+
+### Valor práctico para empleabilidad (CV en ciberseguridad)
+Aunque el foco del video es SOAR, este conocimiento te ayuda a construir mejor tu currículum:
+- Usa un formato claro y escaneable (1 página si eres junior).
+- Destaca logros medibles con verbos de acción.
+- Adapta el CV según vacante (SOC, blue team, detección/respuesta).
+- Resalta certificaciones y práctica real (labs, CTF, playbooks, casos).
+
+**Ejemplo de logro en CV:**
+- “Diseñé un playbook de phishing en SOAR que redujo el tiempo de contención de 35 a 6 minutos en pruebas de laboratorio”.
+
+### Errores comunes
+- Automatizar sin validar proceso manual primero.
+- Crear playbooks largos y difíciles de mantener.
+- No definir criterios de severidad/escala.
+- No medir resultados (MTTD/MTTR, falsos positivos, casos cerrados).
+
+### Preguntas de entrevista
+- **Pregunta:** ¿Qué problema resuelve SOAR en un SOC?
+- **Respuesta:** Reduce trabajo manual y acelera la respuesta mediante playbooks y automatización.
+
+- **Pregunta:** ¿Cuál es la diferencia entre SIEM y SOAR?
+- **Respuesta:** SIEM detecta/correlaciona eventos; SOAR ejecuta respuesta automatizada y orquestada.
+
+- **Pregunta:** ¿Qué deberías automatizar primero en SOAR?
+- **Respuesta:** Casos repetitivos y de bajo riesgo (phishing básico, enriquecimiento IOC, bloqueo inicial y ticketing).
