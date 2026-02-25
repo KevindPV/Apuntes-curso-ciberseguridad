@@ -221,3 +221,18 @@
 
 - **Pregunta:** ¿Qué error común cometen empresas al comprar herramientas de ciberseguridad?
 - **Respuesta:** Adquirir soluciones sin casos de uso claros ni capacidad operativa del equipo para explotarlas.
+
+
+## Sección 7 - Video 38 (Soluciones de SIEM)
+
+- **Pregunta:** ¿Cuál es el valor principal de un SIEM en un SOC?
+- **Respuesta:** Centralizar eventos, correlacionar datos y detectar amenazas en tiempo real para responder más rápido.
+
+- **Pregunta:** ¿Qué significa correlación en SIEM?
+- **Respuesta:** Unir eventos de distintas fuentes para detectar patrones de ataque que no se ven por separado.
+
+- **Pregunta:** ¿Qué debe definir una empresa antes de comprar un SIEM?
+- **Respuesta:** Casos de uso prioritarios, volumen de logs, integraciones necesarias y costo total de operación.
+
+- **Pregunta:** Menciona dos SIEM líderes y un criterio práctico para compararlos.
+- **Respuesta:** Splunk y Microsoft Sentinel; se comparan por integración con el ecosistema actual y costo por ingesta/retención.

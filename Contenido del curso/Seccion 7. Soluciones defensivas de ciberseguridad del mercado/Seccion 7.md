@@ -2,6 +2,7 @@
 
 ## Contenido del curso
 - [**Video 37:** Introducción a las soluciones de ciberseguridad](#video-37)
+- [**Video 38:** Soluciones de SIEM](#video-38)
 
 <a id="video-37"></a>
 ## Video 37: Introducción a las soluciones de ciberseguridad
@@ -77,3 +78,81 @@ Esta lección te prepara para:
 
 - **Pregunta:** ¿Qué debería evaluar una empresa antes de adquirir una solución defensiva?
 - **Respuesta:** Casos de uso, integración con su entorno, costo total (licencia + operación), capacidades del equipo y métricas de efectividad.
+
+
+<a id="video-38"></a>
+## Video 38: Soluciones de SIEM
+
+### Resumen breve
+Un **SIEM** (Security Information and Event Management) ayuda a reunir eventos de seguridad en un solo lugar, detectar patrones peligrosos y responder más rápido ante amenazas. En esta clase verás por qué es una pieza central del SOC y cómo elegir una solución sin gastar de más.
+
+### Conceptos clave
+- **Centralización de eventos:** juntar logs de firewall, endpoints, servidores, nube e identidad en una sola plataforma.
+- **Correlación de datos:** unir señales separadas para descubrir ataques que no se ven con alertas aisladas.
+- **Detección en tiempo real:** generar alertas rápidas cuando aparece comportamiento sospechoso.
+- **Casos de uso:** reglas concretas (ej. fuerza bruta + inicio exitoso + acceso privilegiado).
+
+### ¿Por qué SIEM es crítico en empresas?
+- Reduce puntos ciegos al consolidar fuentes de datos.
+- Acelera investigación y respuesta del blue team/SOC.
+- Permite auditoría, cumplimiento y trazabilidad de incidentes.
+- Facilita métricas de seguridad para dirección (MTTD, MTTR, falsos positivos).
+
+### Soluciones SIEM del mercado (comparativa práctica)
+> *Nota:* costos aproximados; cambian por volumen de logs, retención, conectores y soporte.
+
+1. **Splunk Enterprise / Splunk ES**
+   - **Fuerte en:** búsqueda avanzada, analítica potente, ecosistema amplio.
+   - **Ideal para:** organizaciones con equipos maduros y alto volumen de datos.
+   - **Costo típico:** medio-alto/alto según ingesta diaria.
+
+2. **Microsoft Sentinel**
+   - **Fuerte en:** integración nativa con Azure y ecosistema Microsoft.
+   - **Ideal para:** empresas que ya usan M365, Entra ID y servicios Azure.
+   - **Costo típico:** pago por uso (ingesta/retención), flexible pero requiere control.
+
+3. **IBM QRadar**
+   - **Fuerte en:** correlación robusta y visibilidad en entornos empresariales grandes.
+   - **Ideal para:** compañías con operación SOC formal y necesidades complejas.
+   - **Costo típico:** medio-alto, depende de EPS/FPS y módulos.
+
+4. **LogRhythm**
+   - **Fuerte en:** enfoque SOC integrado, casos de uso prearmados y respuesta.
+   - **Ideal para:** equipos que quieren operación guiada sin construir todo desde cero.
+   - **Costo típico:** medio, con variación por tamaño y funcionalidades.
+
+5. **Securonix**
+   - **Fuerte en:** analítica de comportamiento (UEBA) y enfoque cloud-first.
+   - **Ideal para:** organizaciones que priorizan detección avanzada en nube/híbrido.
+   - **Costo típico:** medio-alto, según volumen y capacidades activadas.
+
+### Ejemplo práctico (sencillo y concreto)
+Una empresa detecta muchos intentos fallidos de login. El SIEM correlaciona:
+1) 20 intentos fallidos en VPN,
+2) inicio exitoso desde país inusual,
+3) acceso a servidor financiero fuera de horario.
+
+Con esa correlación, el SOC sube la severidad, bloquea sesión, fuerza cambio de credenciales y abre investigación. Sin SIEM, estos eventos aparecerían separados y podrían pasar desapercibidos.
+
+### Mini guía para elegir un SIEM
+1. Define 5-10 casos de uso críticos antes de comprar.
+2. Calcula volumen real de logs (GB/día) y retención requerida.
+3. Evalúa integraciones nativas con tus sistemas actuales.
+4. Mide esfuerzo operativo: ¿tu equipo podrá mantener reglas y tuning?
+5. Compara costo total: licencia + almacenamiento + personal + soporte.
+
+### Errores comunes
+- Elegir SIEM solo por marca y no por casos de uso.
+- Ingerir “todo” sin estrategia (sube costo y ruido).
+- No afinar reglas (muchos falsos positivos).
+- No definir playbooks de respuesta para alertas críticas.
+
+### Preguntas de entrevista
+- **Pregunta:** ¿Qué problema resuelve un SIEM en una empresa?
+- **Respuesta:** Centraliza eventos, correlaciona señales y mejora detección/respuesta ante amenazas.
+
+- **Pregunta:** ¿Qué diferencia hay entre alerta y correlación?
+- **Respuesta:** Una alerta puede venir de un solo evento; correlación une varios eventos para identificar un ataque con más contexto.
+
+- **Pregunta:** ¿Qué revisarías antes de seleccionar un SIEM?
+- **Respuesta:** Casos de uso, integraciones, volumen de logs, costo total y capacidad operativa del equipo.
