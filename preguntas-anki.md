@@ -210,3 +210,14 @@
 
 - **Pregunta:** ¿Qué indicadores simples muestran madurez en ISO 27001?
 - **Respuesta:** % de controles implementados, incidentes gestionados y nivel de cumplimiento en auditorías internas.
+
+## Sección 7 - Video 37 (Introducción a las soluciones de ciberseguridad)
+
+- **Pregunta:** ¿Qué diferencia práctica hay entre SIEM y XDR?
+- **Respuesta:** SIEM centraliza/correlaciona logs; XDR integra detección y respuesta entre endpoint, red, identidad, correo y nube.
+
+- **Pregunta:** ¿Para qué sirve la monitorización de logs con herramientas como Splunk?
+- **Respuesta:** Para buscar eventos, detectar anomalías, crear alertas y apoyar investigaciones de incidentes.
+
+- **Pregunta:** ¿Qué error común cometen empresas al comprar herramientas de ciberseguridad?
+- **Respuesta:** Adquirir soluciones sin casos de uso claros ni capacidad operativa del equipo para explotarlas.
